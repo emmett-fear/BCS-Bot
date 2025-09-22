@@ -1,0 +1,37 @@
+name: weekly-bcs
+on:
+  schedule:
+    - cron: "30 19 * * 0"   # Sun 19:30 UTC (Sun 12:30 PM MT)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      # 1) SCRAPE
+      - run: python scrapers/run_all.py
+
+      # 2) COMPUTE
+      - run: python -c "from core import compute_bcs; compute_bcs.main()"
+
+      # 3) PUBLISH SITE ARTIFACTS
+      - run: python publish/social_image.py
+      - run: python publish/site_builder.py
+
+      # 4) COMMIT updated data/site
+      - run: |
+          git config user.name "bcs-bot"
+          git config user.email "bot@example.com"
+          git add -A
+          git commit -m "Weekly update" || echo "No changes"
+          git push
+
+

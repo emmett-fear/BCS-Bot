@@ -1,0 +1,13 @@
+:root { --bg:#0b0d10; --fg:#f1f5f9; --muted:#94a3b8; --card:#11151a; --accent:#38bdf8; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 system-ui,sans-serif}
+.wrap{max-width:1000px;margin:32px auto;padding:0 16px}
+header h1{margin:0 0 6px 0} .sub{color:var(--muted);margin:0 0 12px 0}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden}
+th,td{padding:10px 12px;border-bottom:1px solid #1e293b}
+th{position:sticky;top:0;background:#0f1318;text-align:left}
+tbody tr:hover{background:#0f172a}
+.method{margin-top:24px}
+.small{color:var(--muted);font-size:12px}
+.badge{display:inline-block;margin-top:8px;padding:6px 10px;background:#0f1318;border:1px solid #1e293b;border-radius:8px;color:var(--muted)}
+
+
