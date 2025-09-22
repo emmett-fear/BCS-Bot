@@ -1,7 +1,6 @@
-async function load() {
-  // Standings JSON written by compute_bcs.py and copied to latest.json
-  const resp = await fetch("./data/latest.json", {cache:"no-store"});
-  const data = await resp.json();
+function load() {
+  // Use embedded data from bcs_data.js
+  const data = BCS_DATA;
 
   document.getElementById("meta").innerHTML =
     `<div class="badge">Week: ${data.week}</div>`;
