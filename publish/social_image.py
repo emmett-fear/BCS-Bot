@@ -15,7 +15,7 @@ def main():
     for r in data:
         line = f"{r['rank']:>2}. {r['team']:<20}  BCS {r['bcs_score']:.3f} (Comp {r['computers']:.3f}  AP {r['ap_pct']:.3f}  Coaches {r['coaches_pct']:.3f})"
         d.text((P,y), line, fill=(226,232,240), font=FONT); y += 28
-    img.save("site/top25.png")
+    img.save("top25.png")
 
 if __name__ == "__main__":
     main()

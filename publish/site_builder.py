@@ -6,15 +6,11 @@ from core.log import info
 def build_site(week_path: str = "data/2025/week05"):
     """Build the static site and create latest.json symlink."""
     
-    # Ensure site directory exists
-    site_dir = Path("site")
-    site_dir.mkdir(exist_ok=True)
-    
-    # Create site/data directory for latest.json
-    site_data_dir = site_dir / "data"
+    # Create data directory for latest.json at root
+    site_data_dir = Path("data")
     site_data_dir.mkdir(exist_ok=True)
     
-    # Copy standings to site/data/latest.json
+    # Copy standings to data/latest.json
     standings_path = Path(week_path) / "standings.json"
     if standings_path.exists():
         latest_path = site_data_dir / "latest.json"
@@ -34,7 +30,7 @@ def build_site(week_path: str = "data/2025/week05"):
     if standings_path.exists():
         from publish.social_image import main as gen_social
         gen_social()
-        info("Generated social image: site/top25.png")
+        info("Generated social image: top25.png")
     
     info(f"Site build complete for {week_path}")
 
