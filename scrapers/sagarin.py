@@ -22,7 +22,7 @@ def parse():
     for m in re.finditer(r"^\s*(\d{1,3})\s+([A-Za-z .&'()-]+?)\s+[A-Z]\s*=\s*\d+\.\d+\s+\d+\s+\d+\s+\d+", text, re.M):
         rank = int(m.group(1))
         team_name = m.group(2).strip()
-        if team_name and not team_name.startswith('RATING') and rank <= 25:
+        if team_name and not team_name.startswith('RATING'):
             teams.append({"rank": rank, "team": canon(team_name)})
     
     # Remove duplicates by rank (keep first occurrence)
