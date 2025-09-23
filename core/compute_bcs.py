@@ -75,11 +75,6 @@ def main():
 
         score = (ap_pct.get(team,0.0) + co_pct.get(team,0.0) + comp_score) / 3.0
         
-        # Calculate average computer rank
-        comp_rank_vals = [comp_ranks.get(team,{}).get(s) for s in available_systems]
-        comp_rank_vals = [r for r in comp_rank_vals if r is not None]
-        avg_comp_rank = round(mean(comp_rank_vals), 1) if comp_rank_vals else None
-        
         rows.append({
           "team": team,
           "bcs_score": round(score, 6),
@@ -87,13 +82,37 @@ def main():
           "ap_pct": round(ap_pct.get(team,0.0), 6),
           "coaches_pct": round(co_pct.get(team,0.0), 6),
           "comp_inputs_used": len(vals),
-          "comp_rank": avg_comp_rank,
           "ap_rank": ap_rank.get(team),
           "coaches_rank": co_rank.get(team)
         })
 
     rows.sort(key=lambda r: (r["bcs_score"], r["computers"], r["ap_pct"], r["coaches_pct"], r["team"]), reverse=True)
     for i,r in enumerate(rows, 1): r["rank"] = i
+
+    # Calculate computer ranks based on computer scores with tie handling
+    comp_scores = [(i, r["computers"]) for i, r in enumerate(rows)]
+    comp_scores.sort(key=lambda x: x[1], reverse=True)
+    
+    comp_ranks = {}
+    current_rank = 1
+    i = 0
+    while i < len(comp_scores):
+        score = comp_scores[i][1]
+        tied_indices = [j for j in range(i, len(comp_scores)) if comp_scores[j][1] == score]
+        
+        if len(tied_indices) == 1:
+            comp_ranks[comp_scores[i][0]] = str(current_rank)
+        else:
+            # All tied teams get the same rank with T prefix
+            for idx in tied_indices:
+                comp_ranks[comp_scores[idx][0]] = f"T{current_rank}"
+        
+        current_rank += len(tied_indices)
+        i += len(tied_indices)
+    
+    # Add computer ranks to rows
+    for i, r in enumerate(rows):
+        r["comp_rank"] = comp_ranks.get(i, "—")
 
     write_json(OUT, {"week":"2025-09-21","rows":rows})
 

@@ -8,10 +8,10 @@ const BCS_DATA = {
       "ap_pct": 0.987273,
       "coaches_pct": 0.995224,
       "comp_inputs_used": 4,
-      "comp_rank": 5,
       "ap_rank": 1,
       "coaches_rank": 1,
-      "rank": 1
+      "rank": 1,
+      "comp_rank": "T1"
     },
     {
       "team": "Georgia",
@@ -20,10 +20,10 @@ const BCS_DATA = {
       "ap_pct": 0.860606,
       "coaches_pct": 0.893731,
       "comp_inputs_used": 4,
-      "comp_rank": 5,
       "ap_rank": 5,
       "coaches_rank": 3,
-      "rank": 2
+      "rank": 2,
+      "comp_rank": "T1"
     },
     {
       "team": "Miami",
@@ -32,10 +32,10 @@ const BCS_DATA = {
       "ap_pct": 0.896364,
       "coaches_pct": 0.835224,
       "comp_inputs_used": 4,
-      "comp_rank": 7.2,
       "ap_rank": 2,
       "coaches_rank": 6,
-      "rank": 3
+      "rank": 3,
+      "comp_rank": "4"
     },
     {
       "team": "LSU",
@@ -44,10 +44,10 @@ const BCS_DATA = {
       "ap_pct": 0.868485,
       "coaches_pct": 0.870448,
       "comp_inputs_used": 4,
-      "comp_rank": 7.5,
       "ap_rank": 4,
       "coaches_rank": 4,
-      "rank": 4
+      "rank": 4,
+      "comp_rank": "5"
     },
     {
       "team": "Penn State",
@@ -56,10 +56,10 @@ const BCS_DATA = {
       "ap_pct": 0.884848,
       "coaches_pct": 0.926567,
       "comp_inputs_used": 4,
-      "comp_rank": 12,
       "ap_rank": 3,
       "coaches_rank": 2,
-      "rank": 5
+      "rank": 5,
+      "comp_rank": "9"
     },
     {
       "team": "Oregon",
@@ -68,10 +68,10 @@ const BCS_DATA = {
       "ap_pct": 0.850909,
       "coaches_pct": 0.860896,
       "comp_inputs_used": 4,
-      "comp_rank": 11.5,
       "ap_rank": 6,
       "coaches_rank": 5,
-      "rank": 6
+      "rank": 6,
+      "comp_rank": "10"
     },
     {
       "team": "Oklahoma",
@@ -80,10 +80,10 @@ const BCS_DATA = {
       "ap_pct": 0.723636,
       "coaches_pct": 0.611343,
       "comp_inputs_used": 4,
-      "comp_rank": 8,
       "ap_rank": 7,
       "coaches_rank": 10,
-      "rank": 7
+      "rank": 7,
+      "comp_rank": "6"
     },
     {
       "team": "Texas A&M",
@@ -92,10 +92,10 @@ const BCS_DATA = {
       "ap_pct": 0.649697,
       "coaches_pct": 0.622687,
       "comp_inputs_used": 4,
-      "comp_rank": 8.5,
       "ap_rank": 9,
       "coaches_rank": 9,
-      "rank": 8
+      "rank": 8,
+      "comp_rank": "7"
     },
     {
       "team": "Texas",
@@ -104,10 +104,10 @@ const BCS_DATA = {
       "ap_pct": 0.640606,
       "coaches_pct": 0.721791,
       "comp_inputs_used": 4,
-      "comp_rank": 18.5,
       "ap_rank": 10,
       "coaches_rank": 7,
-      "rank": 9
+      "rank": 9,
+      "comp_rank": "11"
     },
     {
       "team": "Ole Miss",
@@ -116,10 +116,10 @@ const BCS_DATA = {
       "ap_pct": 0.510909,
       "coaches_pct": 0.594627,
       "comp_inputs_used": 4,
-      "comp_rank": 5,
       "ap_rank": 13,
       "coaches_rank": 11,
-      "rank": 10
+      "rank": 10,
+      "comp_rank": "T1"
     },
     {
       "team": "Indiana",
@@ -128,10 +128,10 @@ const BCS_DATA = {
       "ap_pct": 0.6,
       "coaches_pct": 0.546269,
       "comp_inputs_used": 4,
-      "comp_rank": 9.2,
       "ap_rank": 11,
       "coaches_rank": 12,
-      "rank": 11
+      "rank": 11,
+      "comp_rank": "8"
     },
     {
       "team": "Florida State",
@@ -140,10 +140,10 @@ const BCS_DATA = {
       "ap_pct": 0.71697,
       "coaches_pct": 0.656716,
       "comp_inputs_used": 4,
-      "comp_rank": 23.8,
       "ap_rank": 8,
       "coaches_rank": 8,
-      "rank": 12
+      "rank": 12,
+      "comp_rank": "T33"
     },
     {
       "team": "Texas Tech",
@@ -152,10 +152,10 @@ const BCS_DATA = {
       "ap_pct": 0.539394,
       "coaches_pct": 0.481791,
       "comp_inputs_used": 4,
-      "comp_rank": 18,
       "ap_rank": 12,
       "coaches_rank": 14,
-      "rank": 13
+      "rank": 13,
+      "comp_rank": "16"
     },
     {
       "team": "Iowa State",
@@ -164,10 +164,10 @@ const BCS_DATA = {
       "ap_pct": 0.472121,
       "coaches_pct": 0.519403,
       "comp_inputs_used": 4,
-      "comp_rank": 21.5,
       "ap_rank": 14,
       "coaches_rank": 13,
-      "rank": 14
+      "rank": 14,
+      "comp_rank": "T17"
     },
     {
       "team": "Alabama",
@@ -176,10 +176,10 @@ const BCS_DATA = {
       "ap_pct": 0.360606,
       "coaches_pct": 0.387463,
       "comp_inputs_used": 4,
-      "comp_rank": 18.8,
       "ap_rank": 17,
       "coaches_rank": 16,
-      "rank": 15
+      "rank": 15,
+      "comp_rank": "14"
     },
     {
       "team": "Tennessee",
@@ -188,10 +188,10 @@ const BCS_DATA = {
       "ap_pct": 0.384848,
       "coaches_pct": 0.426866,
       "comp_inputs_used": 4,
-      "comp_rank": 21.5,
       "ap_rank": 15,
       "coaches_rank": 15,
-      "rank": 16
+      "rank": 16,
+      "comp_rank": "19"
     },
     {
       "team": "Missouri",
@@ -200,10 +200,10 @@ const BCS_DATA = {
       "ap_pct": 0.273939,
       "coaches_pct": 0.258507,
       "comp_inputs_used": 4,
-      "comp_rank": 13,
       "ap_rank": 20,
       "coaches_rank": 19,
-      "rank": 17
+      "rank": 17,
+      "comp_rank": "13"
     },
     {
       "team": "Michigan",
@@ -212,10 +212,10 @@ const BCS_DATA = {
       "ap_pct": 0.277576,
       "coaches_pct": 0.28,
       "comp_inputs_used": 4,
-      "comp_rank": 16.5,
       "ap_rank": 19,
       "coaches_rank": 18,
-      "rank": 18
+      "rank": 18,
+      "comp_rank": "15"
     },
     {
       "team": "Georgia Tech",
@@ -224,10 +224,10 @@ const BCS_DATA = {
       "ap_pct": 0.362424,
       "coaches_pct": 0.333134,
       "comp_inputs_used": 4,
-      "comp_rank": 21.5,
       "ap_rank": 16,
       "coaches_rank": 17,
-      "rank": 19
+      "rank": 19,
+      "comp_rank": "20"
     },
     {
       "team": "USC",
@@ -236,10 +236,10 @@ const BCS_DATA = {
       "ap_pct": 0.16,
       "coaches_pct": 0.148657,
       "comp_inputs_used": 3,
-      "comp_rank": 11.7,
       "ap_rank": 21,
       "coaches_rank": 22,
-      "rank": 20
+      "rank": 20,
+      "comp_rank": "12"
     },
     {
       "team": "Vanderbilt",
@@ -248,10 +248,10 @@ const BCS_DATA = {
       "ap_pct": 0.330909,
       "coaches_pct": 0.248955,
       "comp_inputs_used": 4,
-      "comp_rank": 21,
       "ap_rank": 18,
       "coaches_rank": 20,
-      "rank": 21
+      "rank": 21,
+      "comp_rank": "22"
     },
     {
       "team": "Notre Dame",
@@ -260,10 +260,10 @@ const BCS_DATA = {
       "ap_pct": 0.132727,
       "coaches_pct": 0.155821,
       "comp_inputs_used": 4,
-      "comp_rank": 31.5,
       "ap_rank": 22,
       "coaches_rank": 21,
-      "rank": 22
+      "rank": 22,
+      "comp_rank": "T17"
     },
     {
       "team": "Illinois",
@@ -272,10 +272,10 @@ const BCS_DATA = {
       "ap_pct": 0.087879,
       "coaches_pct": 0.127761,
       "comp_inputs_used": 4,
-      "comp_rank": 31.2,
       "ap_rank": 23,
       "coaches_rank": 23,
-      "rank": 23
+      "rank": 23,
+      "comp_rank": "T30"
     },
     {
       "team": "TCU",
@@ -284,10 +284,10 @@ const BCS_DATA = {
       "ap_pct": 0.083636,
       "coaches_pct": 0.066866,
       "comp_inputs_used": 4,
-      "comp_rank": 25.8,
       "ap_rank": 24,
       "coaches_rank": 25,
-      "rank": 24
+      "rank": 24,
+      "comp_rank": "T28"
     },
     {
       "team": "BYU",
@@ -296,10 +296,10 @@ const BCS_DATA = {
       "ap_pct": 0.079394,
       "coaches_pct": 0.110448,
       "comp_inputs_used": 4,
-      "comp_rank": 28.5,
       "ap_rank": 25,
       "coaches_rank": 24,
-      "rank": 25
+      "rank": 25,
+      "comp_rank": "35"
     },
     {
       "team": "Mississippi State",
@@ -308,10 +308,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 34,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 26
+      "rank": 26,
+      "comp_rank": "21"
     },
     {
       "team": "Auburn",
@@ -320,10 +320,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 25,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 27
+      "rank": 27,
+      "comp_rank": "23"
     },
     {
       "team": "Memphis",
@@ -332,10 +332,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 32.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 28
+      "rank": 28,
+      "comp_rank": "24"
     },
     {
       "team": "North Texas",
@@ -344,10 +344,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 47.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 29
+      "rank": 29,
+      "comp_rank": "25"
     },
     {
       "team": "Washington",
@@ -356,10 +356,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 27,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 30
+      "rank": 30,
+      "comp_rank": "T26"
     },
     {
       "team": "Houston",
@@ -368,10 +368,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 37.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 31
+      "rank": 31,
+      "comp_rank": "T26"
     },
     {
       "team": "Louisville",
@@ -380,10 +380,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 25.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 32
+      "rank": 32,
+      "comp_rank": "T28"
     },
     {
       "team": "Maryland",
@@ -392,10 +392,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 40,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 33
+      "rank": 33,
+      "comp_rank": "T30"
     },
     {
       "team": "Arizona State",
@@ -404,10 +404,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 25.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 34
+      "rank": 34,
+      "comp_rank": "T30"
     },
     {
       "team": "Florida",
@@ -416,10 +416,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 50.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 35
+      "rank": 35,
+      "comp_rank": "T33"
     },
     {
       "team": "UCF",
@@ -428,10 +428,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 46.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 36
+      "rank": 36,
+      "comp_rank": "36"
     },
     {
       "team": "Clemson",
@@ -440,10 +440,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 55,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 37
+      "rank": 37,
+      "comp_rank": "37"
     },
     {
       "team": "South Florida",
@@ -452,10 +452,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 43.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 38
+      "rank": 38,
+      "comp_rank": "38"
     },
     {
       "team": "Wyoming",
@@ -464,10 +464,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 100.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 39
+      "rank": 39,
+      "comp_rank": "T39"
     },
     {
       "team": "Wisconsin",
@@ -476,10 +476,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 62.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 40
+      "rank": 40,
+      "comp_rank": "T39"
     },
     {
       "team": "Western Michigan",
@@ -488,10 +488,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 109.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 41
+      "rank": 41,
+      "comp_rank": "T39"
     },
     {
       "team": "Western Kentucky",
@@ -500,10 +500,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 88.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 42
+      "rank": 42,
+      "comp_rank": "T39"
     },
     {
       "team": "West Virginia",
@@ -512,10 +512,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 67.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 43
+      "rank": 43,
+      "comp_rank": "T39"
     },
     {
       "team": "West Kentucky",
@@ -524,10 +524,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 80.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 44
+      "rank": 44,
+      "comp_rank": "T39"
     },
     {
       "team": "Washington State",
@@ -536,10 +536,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 105,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 45
+      "rank": 45,
+      "comp_rank": "T39"
     },
     {
       "team": "Washington St",
@@ -548,10 +548,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 74,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 46
+      "rank": 46,
+      "comp_rank": "T39"
     },
     {
       "team": "Wake Forest",
@@ -560,10 +560,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 84.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 47
+      "rank": 47,
+      "comp_rank": "T39"
     },
     {
       "team": "W Michigan",
@@ -572,10 +572,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 103,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 48
+      "rank": 48,
+      "comp_rank": "T39"
     },
     {
       "team": "Virginia Tech",
@@ -584,10 +584,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 84.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 49
+      "rank": 49,
+      "comp_rank": "T39"
     },
     {
       "team": "Virginia",
@@ -596,10 +596,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 53.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 50
+      "rank": 50,
+      "comp_rank": "T39"
     },
     {
       "team": "Utah State",
@@ -608,10 +608,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 95.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 51
+      "rank": 51,
+      "comp_rank": "T39"
     },
     {
       "team": "Utah St",
@@ -620,10 +620,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 65.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 52
+      "rank": 52,
+      "comp_rank": "T39"
     },
     {
       "team": "Utah",
@@ -632,10 +632,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 37,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 53
+      "rank": 53,
+      "comp_rank": "T39"
     },
     {
       "team": "UTSA",
@@ -644,10 +644,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 74.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 54
+      "rank": 54,
+      "comp_rank": "T39"
     },
     {
       "team": "UTEP",
@@ -656,10 +656,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 126.7,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 55
+      "rank": 55,
+      "comp_rank": "T39"
     },
     {
       "team": "UNLV",
@@ -668,10 +668,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 55,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 56
+      "rank": 56,
+      "comp_rank": "T39"
     },
     {
       "team": "UCLA",
@@ -680,10 +680,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 97.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 57
+      "rank": 57,
+      "comp_rank": "T39"
     },
     {
       "team": "UAB",
@@ -692,10 +692,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 116.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 58
+      "rank": 58,
+      "comp_rank": "T39"
     },
     {
       "team": "Tulsa",
@@ -704,10 +704,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 120.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 59
+      "rank": 59,
+      "comp_rank": "T39"
     },
     {
       "team": "Tulane",
@@ -716,10 +716,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 46.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 60
+      "rank": 60,
+      "comp_rank": "T39"
     },
     {
       "team": "Troy",
@@ -728,10 +728,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 91.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 61
+      "rank": 61,
+      "comp_rank": "T39"
     },
     {
       "team": "Toledo",
@@ -740,10 +740,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 81.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 62
+      "rank": 62,
+      "comp_rank": "T39"
     },
     {
       "team": "Texas-El Paso",
@@ -752,10 +752,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 130,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 63
+      "rank": 63,
+      "comp_rank": "T39"
     },
     {
       "team": "Texas State",
@@ -764,10 +764,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 66.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 64
+      "rank": 64,
+      "comp_rank": "T39"
     },
     {
       "team": "Texas St",
@@ -776,10 +776,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 58,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 65
+      "rank": 65,
+      "comp_rank": "T39"
     },
     {
       "team": "Temple",
@@ -788,10 +788,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 107,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 66
+      "rank": 66,
+      "comp_rank": "T39"
     },
     {
       "team": "Syracuse",
@@ -800,10 +800,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 39,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 67
+      "rank": 67,
+      "comp_rank": "T39"
     },
     {
       "team": "Stanford",
@@ -812,10 +812,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 92.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 68
+      "rank": 68,
+      "comp_rank": "T39"
     },
     {
       "team": "Southern Miss",
@@ -824,10 +824,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 105,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 69
+      "rank": 69,
+      "comp_rank": "T39"
     },
     {
       "team": "Southern Cal",
@@ -836,10 +836,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 27,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 70
+      "rank": 70,
+      "comp_rank": "T39"
     },
     {
       "team": "South Carolina",
@@ -848,10 +848,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 44.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 71
+      "rank": 71,
+      "comp_rank": "T39"
     },
     {
       "team": "South Alabama",
@@ -860,10 +860,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 108.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 72
+      "rank": 72,
+      "comp_rank": "T39"
     },
     {
       "team": "San Jose State",
@@ -872,10 +872,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 98,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 73
+      "rank": 73,
+      "comp_rank": "T39"
     },
     {
       "team": "San Jose St",
@@ -884,10 +884,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 112,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 74
+      "rank": 74,
+      "comp_rank": "T39"
     },
     {
       "team": "San Diego State",
@@ -896,10 +896,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 106,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 75
+      "rank": 75,
+      "comp_rank": "T39"
     },
     {
       "team": "San Diego St",
@@ -908,10 +908,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 73.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 76
+      "rank": 76,
+      "comp_rank": "T39"
     },
     {
       "team": "Sam Houston State",
@@ -920,10 +920,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 175,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 77
+      "rank": 77,
+      "comp_rank": "T39"
     },
     {
       "team": "Sam Houston St",
@@ -932,10 +932,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 141.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 78
+      "rank": 78,
+      "comp_rank": "T39"
     },
     {
       "team": "Sam Houston",
@@ -944,10 +944,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 83,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 79
+      "rank": 79,
+      "comp_rank": "T39"
     },
     {
       "team": "SMU",
@@ -956,10 +956,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 52.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 80
+      "rank": 80,
+      "comp_rank": "T39"
     },
     {
       "team": "Rutgers",
@@ -968,10 +968,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 56.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 81
+      "rank": 81,
+      "comp_rank": "T39"
     },
     {
       "team": "Rice",
@@ -980,10 +980,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 96,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 82
+      "rank": 82,
+      "comp_rank": "T39"
     },
     {
       "team": "Purdue",
@@ -992,10 +992,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 89.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 83
+      "rank": 83,
+      "comp_rank": "T39"
     },
     {
       "team": "Pitt",
@@ -1004,10 +1004,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 60.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 84
+      "rank": 84,
+      "comp_rank": "T39"
     },
     {
       "team": "Oregon State",
@@ -1016,10 +1016,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 91.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 85
+      "rank": 85,
+      "comp_rank": "T39"
     },
     {
       "team": "Oregon St",
@@ -1028,10 +1028,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 117.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 86
+      "rank": 86,
+      "comp_rank": "T39"
     },
     {
       "team": "Old Dominion",
@@ -1040,10 +1040,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 68.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 87
+      "rank": 87,
+      "comp_rank": "T39"
     },
     {
       "team": "Oklahoma State",
@@ -1052,10 +1052,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 100.3,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 88
+      "rank": 88,
+      "comp_rank": "T39"
     },
     {
       "team": "Oklahoma St",
@@ -1064,10 +1064,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 117,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 89
+      "rank": 89,
+      "comp_rank": "T39"
     },
     {
       "team": "Ohio",
@@ -1076,10 +1076,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 73,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 90
+      "rank": 90,
+      "comp_rank": "T39"
     },
     {
       "team": "Northwestern",
@@ -1088,10 +1088,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 85.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 91
+      "rank": 91,
+      "comp_rank": "T39"
     },
     {
       "team": "Northern Illinois",
@@ -1100,10 +1100,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 110.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 92
+      "rank": 92,
+      "comp_rank": "T39"
     },
     {
       "team": "North Carolina St.",
@@ -1112,10 +1112,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 46,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 93
+      "rank": 93,
+      "comp_rank": "T39"
     },
     {
       "team": "North Carolina",
@@ -1124,10 +1124,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 74.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 94
+      "rank": 94,
+      "comp_rank": "T39"
     },
     {
       "team": "New Mexico State",
@@ -1136,10 +1136,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 158.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 95
+      "rank": 95,
+      "comp_rank": "T39"
     },
     {
       "team": "New Mexico St",
@@ -1148,10 +1148,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 90,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 96
+      "rank": 96,
+      "comp_rank": "T39"
     },
     {
       "team": "New Mexico",
@@ -1160,10 +1160,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 92.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 97
+      "rank": 97,
+      "comp_rank": "T39"
     },
     {
       "team": "Nevada-Las Vegas",
@@ -1172,10 +1172,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 47,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 98
+      "rank": 98,
+      "comp_rank": "T39"
     },
     {
       "team": "Nevada",
@@ -1184,10 +1184,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 135.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 99
+      "rank": 99,
+      "comp_rank": "T39"
     },
     {
       "team": "Nebraska",
@@ -1196,10 +1196,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 33.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 100
+      "rank": 100,
+      "comp_rank": "T39"
     },
     {
       "team": "Navy",
@@ -1208,10 +1208,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 50.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 101
+      "rank": 101,
+      "comp_rank": "T39"
     },
     {
       "team": "NC State",
@@ -1220,10 +1220,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 43.7,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 102
+      "rank": 102,
+      "comp_rank": "T39"
     },
     {
       "team": "Missouri State",
@@ -1232,10 +1232,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 118,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 103
+      "rank": 103,
+      "comp_rank": "T39"
     },
     {
       "team": "Missouri St",
@@ -1244,10 +1244,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 96.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 104
+      "rank": 104,
+      "comp_rank": "T39"
     },
     {
       "team": "Minnesota",
@@ -1256,10 +1256,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 57.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 105
+      "rank": 105,
+      "comp_rank": "T39"
     },
     {
       "team": "Middle Tennessee",
@@ -1268,10 +1268,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 156,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 106
+      "rank": 106,
+      "comp_rank": "T39"
     },
     {
       "team": "Middle Tenn St",
@@ -1280,10 +1280,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 133.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 107
+      "rank": 107,
+      "comp_rank": "T39"
     },
     {
       "team": "Michigan State",
@@ -1292,10 +1292,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 53.3,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 108
+      "rank": 108,
+      "comp_rank": "T39"
     },
     {
       "team": "Michigan St",
@@ -1304,10 +1304,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 47,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 109
+      "rank": 109,
+      "comp_rank": "T39"
     },
     {
       "team": "Miami-Ohio",
@@ -1316,10 +1316,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 108,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 110
+      "rank": 110,
+      "comp_rank": "T39"
     },
     {
       "team": "Miami (Ohio)",
@@ -1328,10 +1328,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 88,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 111
+      "rank": 111,
+      "comp_rank": "T39"
     },
     {
       "team": "Miami (OH)",
@@ -1340,10 +1340,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 125,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 112
+      "rank": 112,
+      "comp_rank": "T39"
     },
     {
       "team": "Massachusetts",
@@ -1352,10 +1352,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 160.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 113
+      "rank": 113,
+      "comp_rank": "T39"
     },
     {
       "team": "Marshall",
@@ -1364,10 +1364,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 103.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 114
+      "rank": 114,
+      "comp_rank": "T39"
     },
     {
       "team": "Louisiana Tech",
@@ -1376,10 +1376,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 83,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 115
+      "rank": 115,
+      "comp_rank": "T39"
     },
     {
       "team": "Louisiana",
@@ -1388,10 +1388,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 109,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 116
+      "rank": 116,
+      "comp_rank": "T39"
     },
     {
       "team": "Liberty",
@@ -1400,10 +1400,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 118,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 117
+      "rank": 117,
+      "comp_rank": "T39"
     },
     {
       "team": "La. Monroe",
@@ -1412,10 +1412,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 105,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 118
+      "rank": 118,
+      "comp_rank": "T39"
     },
     {
       "team": "La. Lafayette",
@@ -1424,10 +1424,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 113,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 119
+      "rank": 119,
+      "comp_rank": "T39"
     },
     {
       "team": "LA Monroe",
@@ -1436,10 +1436,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 106,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 120
+      "rank": 120,
+      "comp_rank": "T39"
     },
     {
       "team": "LA Lafayette",
@@ -1448,10 +1448,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 122,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 121
+      "rank": 121,
+      "comp_rank": "T39"
     },
     {
       "team": "Kentucky",
@@ -1460,10 +1460,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 50.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 122
+      "rank": 122,
+      "comp_rank": "T39"
     },
     {
       "team": "Kent State",
@@ -1472,10 +1472,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 185,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 123
+      "rank": 123,
+      "comp_rank": "T39"
     },
     {
       "team": "Kent St",
@@ -1484,10 +1484,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 127.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 124
+      "rank": 124,
+      "comp_rank": "T39"
     },
     {
       "team": "Kennesaw State",
@@ -1496,10 +1496,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 123.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 125
+      "rank": 125,
+      "comp_rank": "T39"
     },
     {
       "team": "Kansas State",
@@ -1508,10 +1508,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 58,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 126
+      "rank": 126,
+      "comp_rank": "T39"
     },
     {
       "team": "Kansas St",
@@ -1520,10 +1520,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 119,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 127
+      "rank": 127,
+      "comp_rank": "T39"
     },
     {
       "team": "Kansas",
@@ -1532,10 +1532,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 36.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 128
+      "rank": 128,
+      "comp_rank": "T39"
     },
     {
       "team": "James Madison",
@@ -1544,10 +1544,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 65,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 129
+      "rank": 129,
+      "comp_rank": "T39"
     },
     {
       "team": "Jacksonville State",
@@ -1556,10 +1556,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 94,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 130
+      "rank": 130,
+      "comp_rank": "T39"
     },
     {
       "team": "Jacksonville St",
@@ -1568,10 +1568,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 98,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 131
+      "rank": 131,
+      "comp_rank": "T39"
     },
     {
       "team": "Iowa",
@@ -1580,10 +1580,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 37,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 132
+      "rank": 132,
+      "comp_rank": "T39"
     },
     {
       "team": "Hawaii",
@@ -1592,10 +1592,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 89.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 133
+      "rank": 133,
+      "comp_rank": "T39"
     },
     {
       "team": "Georgia State",
@@ -1604,10 +1604,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 139,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 134
+      "rank": 134,
+      "comp_rank": "T39"
     },
     {
       "team": "Georgia St",
@@ -1616,10 +1616,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 115,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 135
+      "rank": 135,
+      "comp_rank": "T39"
     },
     {
       "team": "Georgia Southern",
@@ -1628,10 +1628,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 88,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 136
+      "rank": 136,
+      "comp_rank": "T39"
     },
     {
       "team": "Fresno State",
@@ -1640,10 +1640,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 75.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 137
+      "rank": 137,
+      "comp_rank": "T39"
     },
     {
       "team": "Fresno St",
@@ -1652,10 +1652,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 50.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 138
+      "rank": 138,
+      "comp_rank": "T39"
     },
     {
       "team": "Florida Intl",
@@ -1664,10 +1664,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 118,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 139
+      "rank": 139,
+      "comp_rank": "T39"
     },
     {
       "team": "Florida Atlantic",
@@ -1676,10 +1676,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 126.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 140
+      "rank": 140,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 9",
@@ -1688,10 +1688,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 164,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 141
+      "rank": 141,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 8",
@@ -1700,10 +1700,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 153,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 142
+      "rank": 142,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 7",
@@ -1712,10 +1712,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 131,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 143
+      "rank": 143,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 6",
@@ -1724,10 +1724,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 162,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 144
+      "rank": 144,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 5",
@@ -1736,10 +1736,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 143,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 145
+      "rank": 145,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 4",
@@ -1748,10 +1748,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 134,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 146
+      "rank": 146,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 31",
@@ -1760,10 +1760,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 167,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 147
+      "rank": 147,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 30",
@@ -1772,10 +1772,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 142,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 148
+      "rank": 148,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 3",
@@ -1784,10 +1784,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 155,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 149
+      "rank": 149,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 29",
@@ -1796,10 +1796,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 161,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 150
+      "rank": 150,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 28",
@@ -1808,10 +1808,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 146,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 151
+      "rank": 151,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 27",
@@ -1820,10 +1820,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 160,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 152
+      "rank": 152,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 26",
@@ -1832,10 +1832,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 135,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 153
+      "rank": 153,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 25",
@@ -1844,10 +1844,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 140,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 154
+      "rank": 154,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 24",
@@ -1856,10 +1856,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 147,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 155
+      "rank": 155,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 23",
@@ -1868,10 +1868,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 145,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 156
+      "rank": 156,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 22",
@@ -1880,10 +1880,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 152,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 157
+      "rank": 157,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 21",
@@ -1892,10 +1892,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 156,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 158
+      "rank": 158,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 20",
@@ -1904,10 +1904,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 157,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 159
+      "rank": 159,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 2",
@@ -1916,10 +1916,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 112,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 160
+      "rank": 160,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 19",
@@ -1928,10 +1928,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 165,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 161
+      "rank": 161,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 18",
@@ -1940,10 +1940,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 123,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 162
+      "rank": 162,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 17",
@@ -1952,10 +1952,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 166,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 163
+      "rank": 163,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 16",
@@ -1964,10 +1964,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 163,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 164
+      "rank": 164,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 15",
@@ -1976,10 +1976,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 150,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 165
+      "rank": 165,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 14",
@@ -1988,10 +1988,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 110,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 166
+      "rank": 166,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 13",
@@ -2000,10 +2000,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 138,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 167
+      "rank": 167,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 12",
@@ -2012,10 +2012,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 148,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 168
+      "rank": 168,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 11",
@@ -2024,10 +2024,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 151,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 169
+      "rank": 169,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 10",
@@ -2036,10 +2036,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 144,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 170
+      "rank": 170,
+      "comp_rank": "T39"
     },
     {
       "team": "FCS GROUP 1",
@@ -2048,10 +2048,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "comp_rank": 158,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 171
+      "rank": 171,
+      "comp_rank": "T39"
     },
     {
       "team": "Eastern Michigan",
@@ -2060,10 +2060,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 130.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 172
+      "rank": 172,
+      "comp_rank": "T39"
     },
     {
       "team": "East Michigan",
@@ -2072,10 +2072,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 130.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 173
+      "rank": 173,
+      "comp_rank": "T39"
     },
     {
       "team": "East Carolina",
@@ -2084,10 +2084,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 80.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 174
+      "rank": 174,
+      "comp_rank": "T39"
     },
     {
       "team": "Duke",
@@ -2096,10 +2096,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 59.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 175
+      "rank": 175,
+      "comp_rank": "T39"
     },
     {
       "team": "Delaware",
@@ -2108,10 +2108,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "comp_rank": 92.3,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 176
+      "rank": 176,
+      "comp_rank": "T39"
     },
     {
       "team": "Connecticut",
@@ -2120,10 +2120,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 98.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 177
+      "rank": 177,
+      "comp_rank": "T39"
     },
     {
       "team": "Colorado State",
@@ -2132,10 +2132,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 91.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 178
+      "rank": 178,
+      "comp_rank": "T39"
     },
     {
       "team": "Colorado St",
@@ -2144,10 +2144,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 112,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 179
+      "rank": 179,
+      "comp_rank": "T39"
     },
     {
       "team": "Colorado",
@@ -2156,10 +2156,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 58.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 180
+      "rank": 180,
+      "comp_rank": "T39"
     },
     {
       "team": "Coastal Carolina",
@@ -2168,10 +2168,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 107.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 181
+      "rank": 181,
+      "comp_rank": "T39"
     },
     {
       "team": "Cincinnati",
@@ -2180,10 +2180,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 55.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 182
+      "rank": 182,
+      "comp_rank": "T39"
     },
     {
       "team": "Charlotte",
@@ -2192,10 +2192,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 144.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 183
+      "rank": 183,
+      "comp_rank": "T39"
     },
     {
       "team": "Central Michigan",
@@ -2204,10 +2204,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 111.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 184
+      "rank": 184,
+      "comp_rank": "T39"
     },
     {
       "team": "Cent Michigan",
@@ -2216,10 +2216,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 104.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 185
+      "rank": 185,
+      "comp_rank": "T39"
     },
     {
       "team": "California",
@@ -2228,10 +2228,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 65.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 186
+      "rank": 186,
+      "comp_rank": "T39"
     },
     {
       "team": "Buffalo",
@@ -2240,10 +2240,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 106.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 187
+      "rank": 187,
+      "comp_rank": "T39"
     },
     {
       "team": "Bowling Green",
@@ -2252,10 +2252,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 92.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 188
+      "rank": 188,
+      "comp_rank": "T39"
     },
     {
       "team": "Boston College",
@@ -2264,10 +2264,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 68,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 189
+      "rank": 189,
+      "comp_rank": "T39"
     },
     {
       "team": "Boston Coll",
@@ -2276,10 +2276,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 101.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 190
+      "rank": 190,
+      "comp_rank": "T39"
     },
     {
       "team": "Boise State",
@@ -2288,10 +2288,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 47,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 191
+      "rank": 191,
+      "comp_rank": "T39"
     },
     {
       "team": "Boise St",
@@ -2300,10 +2300,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 60.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 192
+      "rank": 192,
+      "comp_rank": "T39"
     },
     {
       "team": "Baylor",
@@ -2312,10 +2312,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 51.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 193
+      "rank": 193,
+      "comp_rank": "T39"
     },
     {
       "team": "Ball State",
@@ -2324,10 +2324,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 144,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 194
+      "rank": 194,
+      "comp_rank": "T39"
     },
     {
       "team": "Ball St",
@@ -2336,10 +2336,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 130,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 195
+      "rank": 195,
+      "comp_rank": "T39"
     },
     {
       "team": "Army",
@@ -2348,10 +2348,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 82.2,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 196
+      "rank": 196,
+      "comp_rank": "T39"
     },
     {
       "team": "Arkansas State",
@@ -2360,10 +2360,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 115,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 197
+      "rank": 197,
+      "comp_rank": "T39"
     },
     {
       "team": "Arkansas St",
@@ -2372,10 +2372,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 126,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 198
+      "rank": 198,
+      "comp_rank": "T39"
     },
     {
       "team": "Arkansas",
@@ -2384,10 +2384,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 44.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 199
+      "rank": 199,
+      "comp_rank": "T39"
     },
     {
       "team": "Arizona St",
@@ -2396,10 +2396,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 29.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 200
+      "rank": 200,
+      "comp_rank": "T39"
     },
     {
       "team": "Arizona",
@@ -2408,10 +2408,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 46.8,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 201
+      "rank": 201,
+      "comp_rank": "T39"
     },
     {
       "team": "Appalachian State",
@@ -2420,10 +2420,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 126,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 202
+      "rank": 202,
+      "comp_rank": "T39"
     },
     {
       "team": "Appalachian St",
@@ -2432,10 +2432,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "comp_rank": 93.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 203
+      "rank": 203,
+      "comp_rank": "T39"
     },
     {
       "team": "Akron",
@@ -2444,10 +2444,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 139.5,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 204
+      "rank": 204,
+      "comp_rank": "T39"
     },
     {
       "team": "Air Force",
@@ -2456,12 +2456,12 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "comp_rank": 108,
       "ap_rank": null,
       "coaches_rank": null,
-      "rank": 205
+      "rank": 205,
+      "comp_rank": "T39"
     }
   ],
-  "build_time": "2025-09-23T02:25:54Z",
+  "build_time": "2025-09-23T02:40:47Z",
   "source_week": "data/2025/week05"
 };
