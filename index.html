@@ -9,11 +9,10 @@
 <body>
   <script src="bcs_data.js"></script>
   <main class="wrap">
-    <header>
-      <h1>Simulated BCS Rankings</h1>
-      <p class="sub">Exact 2004–2013 BCS math: ⅓ Coaches, ⅓ AP, ⅓ Computers (drop high/low). Unofficial.</p>
-      <div id="meta"></div>
-    </header>
+        <header>
+          <h1>Simulated BCS Rankings</h1>
+          <div id="meta"></div>
+        </header>
 
     <section>
       <table id="table">
@@ -22,20 +21,23 @@
             <th>#</th><th>Team</th><th>BCS Score</th><th>Computer Score</th><th>Comp Rank</th><th>AP Poll</th><th>AP Rank</th><th>Coaches Poll</th><th>Coaches Rank</th>
           </tr>
         </thead>
-        <tbody></tbody>
-      </table>
-      <div id="badge"></div>
-    </section>
+            <tbody></tbody>
+          </table>
+        </section>
 
     <section class="method">
       <h2>Methodology & Sources</h2>
       <ul>
         <li>BCS formula (2004–2013) with six computers; drop highest & lowest computer score; average remaining four.</li>
         <li>Humans: AP Top 25 (used here as Harris replacement) + USA TODAY Coaches Poll (both scaled by points ÷ (ballots×25)). AP: official hub. Coaches: USA TODAY Sports data weekly pages. </li>
-        <li>Computers: Colley, Massey, Billingsley (CFRC), Anderson & Hester, Sagarin, Wolfe.</li>
+        <li>Computers: Colley, Massey, Billingsley (CFRC), Anderson & Hester*, Sagarin, Wolfe**.</li>
       </ul>
       <p class="small">
         Sources: AP Top 25 hub; NCAA article listing AP table for Week 5; USA TODAY Coaches data; Colley currank; Massey FBS ratings; CFRC Billingsley; Anderson & Hester; Sagarin directory/legacy; Wolfe 2025 note on Oct 12 first posting.
+      </p>
+      <p class="small">
+        *Anderson & Hester begins November 19, 2025<br>
+        **Wolfe begins October 12, 2025
       </p>
     </section>
     <footer><p>Not affiliated with the BCS. For entertainment/analysis only.</p></footer>
