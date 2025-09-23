@@ -40,13 +40,16 @@ def main():
     ap = load_poll("ap")
     co = load_poll("coaches")
 
-    # Build poll percentages
+    # Build poll percentages and ranks
     ap_pct = { canon(t["team"]): poll_pct(t.get("points"), ap.get("ballots", 0)) for t in ap.get("teams",[]) }
     co_pct = { canon(t["team"]): poll_pct(t.get("points"), co.get("ballots", 0)) for t in co.get("teams",[]) }
+    ap_rank = { canon(t["team"]): t.get("rank") for t in ap.get("teams",[]) }
+    co_rank = { canon(t["team"]): t.get("rank") for t in co.get("teams",[]) }
 
-    # Load computers into per-team dict of system->inverse points
+    # Load computers into per-team dict of system->inverse points and ranks
     all_systems = ["sagarin","anderson_hester","billingsley","colley","massey","wolfe"]
     comp_map = {}
+    comp_ranks = {}
     comp_used_count = { k:0 for k in all_systems }
     available_systems = []
 
@@ -56,8 +59,10 @@ def main():
             available_systems.append(sysname)
             for t in payload.get("teams", []):
                 team = canon(t["team"])
-                cp = comp_points(t.get("rank"))
+                rank = t.get("rank")
+                cp = comp_points(rank)
                 comp_map.setdefault(team, {})[sysname] = cp
+                comp_ranks.setdefault(team, {})[sysname] = rank
                 comp_used_count[sysname] += 1
 
     # Compute computer score with drop-high/low (if 6 present)
@@ -69,13 +74,22 @@ def main():
         comp_score = drop_high_low(vals) if vals else 0.0
 
         score = (ap_pct.get(team,0.0) + co_pct.get(team,0.0) + comp_score) / 3.0
+        
+        # Calculate average computer rank
+        comp_rank_vals = [comp_ranks.get(team,{}).get(s) for s in available_systems]
+        comp_rank_vals = [r for r in comp_rank_vals if r is not None]
+        avg_comp_rank = round(mean(comp_rank_vals), 1) if comp_rank_vals else None
+        
         rows.append({
           "team": team,
           "bcs_score": round(score, 6),
           "computers": round(comp_score, 6),
           "ap_pct": round(ap_pct.get(team,0.0), 6),
           "coaches_pct": round(co_pct.get(team,0.0), 6),
-          "comp_inputs_used": len(vals)
+          "comp_inputs_used": len(vals),
+          "comp_rank": avg_comp_rank,
+          "ap_rank": ap_rank.get(team),
+          "coaches_rank": co_rank.get(team)
         })
 
     rows.sort(key=lambda r: (r["bcs_score"], r["computers"], r["ap_pct"], r["coaches_pct"], r["team"]), reverse=True)

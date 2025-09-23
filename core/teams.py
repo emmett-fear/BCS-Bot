@@ -189,6 +189,7 @@ ALIAS = {
       "LouisianaMonroe(ULM)": "LA Monroe",
       "Army West Point": "Army",
       "Fla. International": "Florida Intl",
+      "Florida Int.": "Florida Intl",
       "Hawai'i": "Hawaii",
       "Louisiana-Lafayette": "Louisiana",
       # add as you encounter variants...

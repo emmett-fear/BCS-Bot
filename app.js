@@ -17,8 +17,11 @@ function load() {
       <td>${r.team}</td>
       <td>${r.bcs_score.toFixed(3)}</td>
       <td>${r.computers.toFixed(3)}</td>
+      <td>${r.comp_rank || '—'}</td>
       <td>${r.ap_pct.toFixed(3)}</td>
+      <td>${r.ap_rank || '—'}</td>
       <td>${r.coaches_pct.toFixed(3)}</td>
+      <td>${r.coaches_rank || '—'}</td>
       <td>${r.comp_inputs_used}/6</td>
     `;
     tbody.appendChild(tr);

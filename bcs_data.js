@@ -8,6 +8,9 @@ const BCS_DATA = {
       "ap_pct": 0.987273,
       "coaches_pct": 0.995224,
       "comp_inputs_used": 4,
+      "comp_rank": 5,
+      "ap_rank": 1,
+      "coaches_rank": 1,
       "rank": 1
     },
     {
@@ -17,6 +20,9 @@ const BCS_DATA = {
       "ap_pct": 0.860606,
       "coaches_pct": 0.893731,
       "comp_inputs_used": 4,
+      "comp_rank": 5,
+      "ap_rank": 5,
+      "coaches_rank": 3,
       "rank": 2
     },
     {
@@ -26,6 +32,9 @@ const BCS_DATA = {
       "ap_pct": 0.896364,
       "coaches_pct": 0.835224,
       "comp_inputs_used": 4,
+      "comp_rank": 7.2,
+      "ap_rank": 2,
+      "coaches_rank": 6,
       "rank": 3
     },
     {
@@ -35,6 +44,9 @@ const BCS_DATA = {
       "ap_pct": 0.868485,
       "coaches_pct": 0.870448,
       "comp_inputs_used": 4,
+      "comp_rank": 7.5,
+      "ap_rank": 4,
+      "coaches_rank": 4,
       "rank": 4
     },
     {
@@ -44,6 +56,9 @@ const BCS_DATA = {
       "ap_pct": 0.884848,
       "coaches_pct": 0.926567,
       "comp_inputs_used": 4,
+      "comp_rank": 12,
+      "ap_rank": 3,
+      "coaches_rank": 2,
       "rank": 5
     },
     {
@@ -53,6 +68,9 @@ const BCS_DATA = {
       "ap_pct": 0.850909,
       "coaches_pct": 0.860896,
       "comp_inputs_used": 4,
+      "comp_rank": 11.5,
+      "ap_rank": 6,
+      "coaches_rank": 5,
       "rank": 6
     },
     {
@@ -62,6 +80,9 @@ const BCS_DATA = {
       "ap_pct": 0.723636,
       "coaches_pct": 0.611343,
       "comp_inputs_used": 4,
+      "comp_rank": 8,
+      "ap_rank": 7,
+      "coaches_rank": 10,
       "rank": 7
     },
     {
@@ -71,6 +92,9 @@ const BCS_DATA = {
       "ap_pct": 0.649697,
       "coaches_pct": 0.622687,
       "comp_inputs_used": 4,
+      "comp_rank": 8.5,
+      "ap_rank": 9,
+      "coaches_rank": 9,
       "rank": 8
     },
     {
@@ -80,6 +104,9 @@ const BCS_DATA = {
       "ap_pct": 0.640606,
       "coaches_pct": 0.721791,
       "comp_inputs_used": 4,
+      "comp_rank": 18.5,
+      "ap_rank": 10,
+      "coaches_rank": 7,
       "rank": 9
     },
     {
@@ -89,6 +116,9 @@ const BCS_DATA = {
       "ap_pct": 0.510909,
       "coaches_pct": 0.594627,
       "comp_inputs_used": 4,
+      "comp_rank": 5,
+      "ap_rank": 13,
+      "coaches_rank": 11,
       "rank": 10
     },
     {
@@ -98,6 +128,9 @@ const BCS_DATA = {
       "ap_pct": 0.6,
       "coaches_pct": 0.546269,
       "comp_inputs_used": 4,
+      "comp_rank": 9.2,
+      "ap_rank": 11,
+      "coaches_rank": 12,
       "rank": 11
     },
     {
@@ -107,6 +140,9 @@ const BCS_DATA = {
       "ap_pct": 0.71697,
       "coaches_pct": 0.656716,
       "comp_inputs_used": 4,
+      "comp_rank": 23.8,
+      "ap_rank": 8,
+      "coaches_rank": 8,
       "rank": 12
     },
     {
@@ -116,6 +152,9 @@ const BCS_DATA = {
       "ap_pct": 0.539394,
       "coaches_pct": 0.481791,
       "comp_inputs_used": 4,
+      "comp_rank": 18,
+      "ap_rank": 12,
+      "coaches_rank": 14,
       "rank": 13
     },
     {
@@ -125,6 +164,9 @@ const BCS_DATA = {
       "ap_pct": 0.472121,
       "coaches_pct": 0.519403,
       "comp_inputs_used": 4,
+      "comp_rank": 21.5,
+      "ap_rank": 14,
+      "coaches_rank": 13,
       "rank": 14
     },
     {
@@ -134,6 +176,9 @@ const BCS_DATA = {
       "ap_pct": 0.360606,
       "coaches_pct": 0.387463,
       "comp_inputs_used": 4,
+      "comp_rank": 18.8,
+      "ap_rank": 17,
+      "coaches_rank": 16,
       "rank": 15
     },
     {
@@ -143,6 +188,9 @@ const BCS_DATA = {
       "ap_pct": 0.384848,
       "coaches_pct": 0.426866,
       "comp_inputs_used": 4,
+      "comp_rank": 21.5,
+      "ap_rank": 15,
+      "coaches_rank": 15,
       "rank": 16
     },
     {
@@ -152,6 +200,9 @@ const BCS_DATA = {
       "ap_pct": 0.273939,
       "coaches_pct": 0.258507,
       "comp_inputs_used": 4,
+      "comp_rank": 13,
+      "ap_rank": 20,
+      "coaches_rank": 19,
       "rank": 17
     },
     {
@@ -161,6 +212,9 @@ const BCS_DATA = {
       "ap_pct": 0.277576,
       "coaches_pct": 0.28,
       "comp_inputs_used": 4,
+      "comp_rank": 16.5,
+      "ap_rank": 19,
+      "coaches_rank": 18,
       "rank": 18
     },
     {
@@ -170,6 +224,9 @@ const BCS_DATA = {
       "ap_pct": 0.362424,
       "coaches_pct": 0.333134,
       "comp_inputs_used": 4,
+      "comp_rank": 21.5,
+      "ap_rank": 16,
+      "coaches_rank": 17,
       "rank": 19
     },
     {
@@ -179,6 +236,9 @@ const BCS_DATA = {
       "ap_pct": 0.16,
       "coaches_pct": 0.148657,
       "comp_inputs_used": 3,
+      "comp_rank": 11.7,
+      "ap_rank": 21,
+      "coaches_rank": 22,
       "rank": 20
     },
     {
@@ -188,6 +248,9 @@ const BCS_DATA = {
       "ap_pct": 0.330909,
       "coaches_pct": 0.248955,
       "comp_inputs_used": 4,
+      "comp_rank": 21,
+      "ap_rank": 18,
+      "coaches_rank": 20,
       "rank": 21
     },
     {
@@ -197,6 +260,9 @@ const BCS_DATA = {
       "ap_pct": 0.132727,
       "coaches_pct": 0.155821,
       "comp_inputs_used": 4,
+      "comp_rank": 31.5,
+      "ap_rank": 22,
+      "coaches_rank": 21,
       "rank": 22
     },
     {
@@ -206,6 +272,9 @@ const BCS_DATA = {
       "ap_pct": 0.087879,
       "coaches_pct": 0.127761,
       "comp_inputs_used": 4,
+      "comp_rank": 31.2,
+      "ap_rank": 23,
+      "coaches_rank": 23,
       "rank": 23
     },
     {
@@ -215,6 +284,9 @@ const BCS_DATA = {
       "ap_pct": 0.083636,
       "coaches_pct": 0.066866,
       "comp_inputs_used": 4,
+      "comp_rank": 25.8,
+      "ap_rank": 24,
+      "coaches_rank": 25,
       "rank": 24
     },
     {
@@ -224,6 +296,9 @@ const BCS_DATA = {
       "ap_pct": 0.079394,
       "coaches_pct": 0.110448,
       "comp_inputs_used": 4,
+      "comp_rank": 28.5,
+      "ap_rank": 25,
+      "coaches_rank": 24,
       "rank": 25
     },
     {
@@ -233,6 +308,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 34,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 26
     },
     {
@@ -242,6 +320,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 25,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 27
     },
     {
@@ -251,6 +332,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 32.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 28
     },
     {
@@ -260,6 +344,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 47.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 29
     },
     {
@@ -269,6 +356,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 27,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 30
     },
     {
@@ -278,6 +368,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 37.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 31
     },
     {
@@ -287,6 +380,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 25.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 32
     },
     {
@@ -296,6 +392,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 40,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 33
     },
     {
@@ -305,6 +404,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 25.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 34
     },
     {
@@ -314,6 +416,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 50.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 35
     },
     {
@@ -323,6 +428,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 46.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 36
     },
     {
@@ -332,6 +440,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 55,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 37
     },
     {
@@ -341,6 +452,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 43.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 38
     },
     {
@@ -350,6 +464,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 100.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 39
     },
     {
@@ -359,6 +476,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 62.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 40
     },
     {
@@ -368,6 +488,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 109.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 41
     },
     {
@@ -377,6 +500,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 88.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 42
     },
     {
@@ -386,6 +512,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 67.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 43
     },
     {
@@ -395,6 +524,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 80.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 44
     },
     {
@@ -404,6 +536,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 105,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 45
     },
     {
@@ -413,6 +548,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 74,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 46
     },
     {
@@ -422,6 +560,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 84.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 47
     },
     {
@@ -431,6 +572,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 103,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 48
     },
     {
@@ -440,6 +584,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 84.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 49
     },
     {
@@ -449,6 +596,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 53.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 50
     },
     {
@@ -458,6 +608,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 95.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 51
     },
     {
@@ -467,6 +620,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 65.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 52
     },
     {
@@ -476,6 +632,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 37,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 53
     },
     {
@@ -485,6 +644,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 74.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 54
     },
     {
@@ -494,6 +656,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 126.7,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 55
     },
     {
@@ -503,6 +668,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 55,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 56
     },
     {
@@ -512,6 +680,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 97.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 57
     },
     {
@@ -521,6 +692,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 116.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 58
     },
     {
@@ -530,6 +704,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 120.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 59
     },
     {
@@ -539,6 +716,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 46.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 60
     },
     {
@@ -548,6 +728,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 91.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 61
     },
     {
@@ -557,6 +740,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 81.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 62
     },
     {
@@ -566,6 +752,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 130,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 63
     },
     {
@@ -575,6 +764,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 66.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 64
     },
     {
@@ -584,6 +776,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 58,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 65
     },
     {
@@ -593,6 +788,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 107,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 66
     },
     {
@@ -602,6 +800,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 39,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 67
     },
     {
@@ -611,6 +812,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 92.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 68
     },
     {
@@ -620,6 +824,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 105,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 69
     },
     {
@@ -629,6 +836,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 27,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 70
     },
     {
@@ -638,6 +848,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 44.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 71
     },
     {
@@ -647,6 +860,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 108.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 72
     },
     {
@@ -656,6 +872,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 98,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 73
     },
     {
@@ -665,6 +884,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 112,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 74
     },
     {
@@ -674,6 +896,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 106,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 75
     },
     {
@@ -683,6 +908,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 73.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 76
     },
     {
@@ -692,6 +920,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 175,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 77
     },
     {
@@ -701,6 +932,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 141.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 78
     },
     {
@@ -710,6 +944,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 83,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 79
     },
     {
@@ -719,6 +956,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 52.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 80
     },
     {
@@ -728,6 +968,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 56.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 81
     },
     {
@@ -737,6 +980,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 96,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 82
     },
     {
@@ -746,6 +992,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 89.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 83
     },
     {
@@ -755,6 +1004,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 60.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 84
     },
     {
@@ -764,6 +1016,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 91.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 85
     },
     {
@@ -773,6 +1028,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 117.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 86
     },
     {
@@ -782,6 +1040,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 68.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 87
     },
     {
@@ -791,6 +1052,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 100.3,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 88
     },
     {
@@ -800,6 +1064,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 117,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 89
     },
     {
@@ -809,6 +1076,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 73,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 90
     },
     {
@@ -818,6 +1088,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 85.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 91
     },
     {
@@ -827,6 +1100,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 110.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 92
     },
     {
@@ -836,6 +1112,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 46,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 93
     },
     {
@@ -845,6 +1124,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 74.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 94
     },
     {
@@ -854,6 +1136,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 158.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 95
     },
     {
@@ -863,6 +1148,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 90,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 96
     },
     {
@@ -872,6 +1160,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 92.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 97
     },
     {
@@ -881,6 +1172,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 47,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 98
     },
     {
@@ -890,6 +1184,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 135.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 99
     },
     {
@@ -899,6 +1196,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 33.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 100
     },
     {
@@ -908,6 +1208,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 50.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 101
     },
     {
@@ -917,6 +1220,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 43.7,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 102
     },
     {
@@ -926,6 +1232,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 118,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 103
     },
     {
@@ -935,6 +1244,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 96.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 104
     },
     {
@@ -944,6 +1256,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 57.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 105
     },
     {
@@ -953,6 +1268,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 156,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 106
     },
     {
@@ -962,6 +1280,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 133.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 107
     },
     {
@@ -971,6 +1292,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 53.3,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 108
     },
     {
@@ -980,6 +1304,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 47,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 109
     },
     {
@@ -989,6 +1316,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 108,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 110
     },
     {
@@ -998,6 +1328,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 88,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 111
     },
     {
@@ -1007,6 +1340,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 125,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 112
     },
     {
@@ -1016,6 +1352,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 160.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 113
     },
     {
@@ -1025,6 +1364,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 103.2,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 114
     },
     {
@@ -1034,6 +1376,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 83,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 115
     },
     {
@@ -1043,6 +1388,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 109,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 116
     },
     {
@@ -1052,6 +1400,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 118,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 117
     },
     {
@@ -1061,6 +1412,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 105,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 118
     },
     {
@@ -1070,6 +1424,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 113,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 119
     },
     {
@@ -1079,6 +1436,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 106,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 120
     },
     {
@@ -1088,6 +1448,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 122,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 121
     },
     {
@@ -1097,6 +1460,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 50.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 122
     },
     {
@@ -1106,6 +1472,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 185,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 123
     },
     {
@@ -1115,6 +1484,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 127.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 124
     },
     {
@@ -1124,6 +1496,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 123.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 125
     },
     {
@@ -1133,6 +1508,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
+      "comp_rank": 58,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 126
     },
     {
@@ -1142,6 +1520,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
+      "comp_rank": 119,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 127
     },
     {
@@ -1151,6 +1532,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 36.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 128
     },
     {
@@ -1160,6 +1544,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 65,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 129
     },
     {
@@ -1169,6 +1556,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 94,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 130
     },
     {
@@ -1178,6 +1568,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 98,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 131
     },
     {
@@ -1187,6 +1580,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 37,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 132
     },
     {
@@ -1196,6 +1592,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 89.8,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 133
     },
     {
@@ -1205,6 +1604,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 139,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 134
     },
     {
@@ -1214,6 +1616,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 115,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 135
     },
     {
@@ -1223,6 +1628,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
+      "comp_rank": 88,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 136
     },
     {
@@ -1232,6 +1640,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 75.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 137
     },
     {
@@ -1241,6 +1652,9 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
+      "comp_rank": 50.5,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 138
     },
     {
@@ -1249,17 +1663,11 @@ const BCS_DATA = {
       "computers": 0.0,
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
-      "comp_inputs_used": 3,
+      "comp_inputs_used": 4,
+      "comp_rank": 118,
+      "ap_rank": null,
+      "coaches_rank": null,
       "rank": 139
-    },
-    {
-      "team": "Florida Int.",
-      "bcs_score": 0.0,
-      "computers": 0.0,
-      "ap_pct": 0.0,
-      "coaches_pct": 0.0,
-      "comp_inputs_used": 1,
-      "rank": 140
     },
     {
       "team": "Florida Atlantic",
@@ -1268,7 +1676,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 141
+      "comp_rank": 126.2,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 140
     },
     {
       "team": "FCS GROUP 9",
@@ -1277,7 +1688,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 142
+      "comp_rank": 164,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 141
     },
     {
       "team": "FCS GROUP 8",
@@ -1286,7 +1700,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 143
+      "comp_rank": 153,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 142
     },
     {
       "team": "FCS GROUP 7",
@@ -1295,7 +1712,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 144
+      "comp_rank": 131,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 143
     },
     {
       "team": "FCS GROUP 6",
@@ -1304,7 +1724,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 145
+      "comp_rank": 162,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 144
     },
     {
       "team": "FCS GROUP 5",
@@ -1313,7 +1736,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 146
+      "comp_rank": 143,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 145
     },
     {
       "team": "FCS GROUP 4",
@@ -1322,7 +1748,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 147
+      "comp_rank": 134,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 146
     },
     {
       "team": "FCS GROUP 31",
@@ -1331,7 +1760,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 148
+      "comp_rank": 167,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 147
     },
     {
       "team": "FCS GROUP 30",
@@ -1340,7 +1772,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 149
+      "comp_rank": 142,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 148
     },
     {
       "team": "FCS GROUP 3",
@@ -1349,7 +1784,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 150
+      "comp_rank": 155,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 149
     },
     {
       "team": "FCS GROUP 29",
@@ -1358,7 +1796,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 151
+      "comp_rank": 161,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 150
     },
     {
       "team": "FCS GROUP 28",
@@ -1367,7 +1808,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 152
+      "comp_rank": 146,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 151
     },
     {
       "team": "FCS GROUP 27",
@@ -1376,7 +1820,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 153
+      "comp_rank": 160,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 152
     },
     {
       "team": "FCS GROUP 26",
@@ -1385,7 +1832,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 154
+      "comp_rank": 135,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 153
     },
     {
       "team": "FCS GROUP 25",
@@ -1394,7 +1844,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 155
+      "comp_rank": 140,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 154
     },
     {
       "team": "FCS GROUP 24",
@@ -1403,7 +1856,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 156
+      "comp_rank": 147,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 155
     },
     {
       "team": "FCS GROUP 23",
@@ -1412,7 +1868,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 157
+      "comp_rank": 145,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 156
     },
     {
       "team": "FCS GROUP 22",
@@ -1421,7 +1880,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 158
+      "comp_rank": 152,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 157
     },
     {
       "team": "FCS GROUP 21",
@@ -1430,7 +1892,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 159
+      "comp_rank": 156,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 158
     },
     {
       "team": "FCS GROUP 20",
@@ -1439,7 +1904,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 160
+      "comp_rank": 157,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 159
     },
     {
       "team": "FCS GROUP 2",
@@ -1448,7 +1916,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 161
+      "comp_rank": 112,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 160
     },
     {
       "team": "FCS GROUP 19",
@@ -1457,7 +1928,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 162
+      "comp_rank": 165,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 161
     },
     {
       "team": "FCS GROUP 18",
@@ -1466,7 +1940,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 163
+      "comp_rank": 123,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 162
     },
     {
       "team": "FCS GROUP 17",
@@ -1475,7 +1952,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 164
+      "comp_rank": 166,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 163
     },
     {
       "team": "FCS GROUP 16",
@@ -1484,7 +1964,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 165
+      "comp_rank": 163,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 164
     },
     {
       "team": "FCS GROUP 15",
@@ -1493,7 +1976,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 166
+      "comp_rank": 150,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 165
     },
     {
       "team": "FCS GROUP 14",
@@ -1502,7 +1988,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 167
+      "comp_rank": 110,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 166
     },
     {
       "team": "FCS GROUP 13",
@@ -1511,7 +2000,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 168
+      "comp_rank": 138,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 167
     },
     {
       "team": "FCS GROUP 12",
@@ -1520,7 +2012,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 169
+      "comp_rank": 148,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 168
     },
     {
       "team": "FCS GROUP 11",
@@ -1529,7 +2024,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 170
+      "comp_rank": 151,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 169
     },
     {
       "team": "FCS GROUP 10",
@@ -1538,7 +2036,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 171
+      "comp_rank": 144,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 170
     },
     {
       "team": "FCS GROUP 1",
@@ -1547,7 +2048,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 1,
-      "rank": 172
+      "comp_rank": 158,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 171
     },
     {
       "team": "Eastern Michigan",
@@ -1556,7 +2060,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 173
+      "comp_rank": 130.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 172
     },
     {
       "team": "East Michigan",
@@ -1565,7 +2072,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 174
+      "comp_rank": 130.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 173
     },
     {
       "team": "East Carolina",
@@ -1574,7 +2084,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 175
+      "comp_rank": 80.8,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 174
     },
     {
       "team": "Duke",
@@ -1583,7 +2096,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 176
+      "comp_rank": 59.8,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 175
     },
     {
       "team": "Delaware",
@@ -1592,7 +2108,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 3,
-      "rank": 177
+      "comp_rank": 92.3,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 176
     },
     {
       "team": "Connecticut",
@@ -1601,7 +2120,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 178
+      "comp_rank": 98.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 177
     },
     {
       "team": "Colorado State",
@@ -1610,7 +2132,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 179
+      "comp_rank": 91.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 178
     },
     {
       "team": "Colorado St",
@@ -1619,7 +2144,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 180
+      "comp_rank": 112,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 179
     },
     {
       "team": "Colorado",
@@ -1628,7 +2156,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 181
+      "comp_rank": 58.8,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 180
     },
     {
       "team": "Coastal Carolina",
@@ -1637,7 +2168,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 182
+      "comp_rank": 107.8,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 181
     },
     {
       "team": "Cincinnati",
@@ -1646,7 +2180,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 183
+      "comp_rank": 55.2,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 182
     },
     {
       "team": "Charlotte",
@@ -1655,7 +2192,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 184
+      "comp_rank": 144.2,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 183
     },
     {
       "team": "Central Michigan",
@@ -1664,7 +2204,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 185
+      "comp_rank": 111.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 184
     },
     {
       "team": "Cent Michigan",
@@ -1673,7 +2216,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 186
+      "comp_rank": 104.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 185
     },
     {
       "team": "California",
@@ -1682,7 +2228,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 187
+      "comp_rank": 65.2,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 186
     },
     {
       "team": "Buffalo",
@@ -1691,7 +2240,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 188
+      "comp_rank": 106.8,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 187
     },
     {
       "team": "Bowling Green",
@@ -1700,7 +2252,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 189
+      "comp_rank": 92.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 188
     },
     {
       "team": "Boston College",
@@ -1709,7 +2264,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 190
+      "comp_rank": 68,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 189
     },
     {
       "team": "Boston Coll",
@@ -1718,7 +2276,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 191
+      "comp_rank": 101.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 190
     },
     {
       "team": "Boise State",
@@ -1727,7 +2288,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 192
+      "comp_rank": 47,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 191
     },
     {
       "team": "Boise St",
@@ -1736,7 +2300,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 193
+      "comp_rank": 60.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 192
     },
     {
       "team": "Baylor",
@@ -1745,7 +2312,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 194
+      "comp_rank": 51.2,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 193
     },
     {
       "team": "Ball State",
@@ -1754,7 +2324,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 195
+      "comp_rank": 144,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 194
     },
     {
       "team": "Ball St",
@@ -1763,7 +2336,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 196
+      "comp_rank": 130,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 195
     },
     {
       "team": "Army",
@@ -1772,7 +2348,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 197
+      "comp_rank": 82.2,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 196
     },
     {
       "team": "Arkansas State",
@@ -1781,7 +2360,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 198
+      "comp_rank": 115,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 197
     },
     {
       "team": "Arkansas St",
@@ -1790,7 +2372,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 199
+      "comp_rank": 126,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 198
     },
     {
       "team": "Arkansas",
@@ -1799,7 +2384,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 200
+      "comp_rank": 44.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 199
     },
     {
       "team": "Arizona St",
@@ -1808,7 +2396,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 201
+      "comp_rank": 29.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 200
     },
     {
       "team": "Arizona",
@@ -1817,7 +2408,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 202
+      "comp_rank": 46.8,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 201
     },
     {
       "team": "Appalachian State",
@@ -1826,7 +2420,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 203
+      "comp_rank": 126,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 202
     },
     {
       "team": "Appalachian St",
@@ -1835,7 +2432,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 2,
-      "rank": 204
+      "comp_rank": 93.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 203
     },
     {
       "team": "Akron",
@@ -1844,7 +2444,10 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 205
+      "comp_rank": 139.5,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 204
     },
     {
       "team": "Air Force",
@@ -1853,9 +2456,12 @@ const BCS_DATA = {
       "ap_pct": 0.0,
       "coaches_pct": 0.0,
       "comp_inputs_used": 4,
-      "rank": 206
+      "comp_rank": 108,
+      "ap_rank": null,
+      "coaches_rank": null,
+      "rank": 205
     }
   ],
-  "build_time": "2025-09-23T02:18:10Z",
+  "build_time": "2025-09-23T02:25:54Z",
   "source_week": "data/2025/week05"
 };
