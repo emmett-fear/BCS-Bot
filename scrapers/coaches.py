@@ -23,33 +23,23 @@ def parse():
     rows = soup.select("table tr")
     for tr in rows[1:]:
         tds = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
-        if len(tds) < 4: 
+        if len(tds) < 5: 
             continue
-        # Common pattern: Rank, Team, Record, Points, (First-place), ...
-        rank_txt, team_txt, *_ = tds
-        # Try to find a "First-place votes" cell or a parens in team cell
-        first = 0
-        m = re.search(r"\((\d{1,3})\)", team_txt)
-        if m:
-            first = int(m.group(1))
-            team_txt = re.sub(r"\(\d{1,3}\)", "", team_txt).strip()
-
-        # points often in a specific column; find the biggest 3-4 digit int in row as points
-        pts = None
-        for cell in tds:
-            pm = re.search(r"\b(\d{3,4})\b", cell)
-            if pm:
-                val = int(pm.group(1))
-                if pts is None or val > pts:
-                    pts = val
-
-        if not pts:
+        # Pattern: Rank, Team, Record, Points, First-place votes, ...
+        rank_txt, team_txt, record, points_txt, first_txt, *_ = tds
+        
+        try:
+            rank = int(re.sub(r"[^\d]", "", rank_txt) or "0")
+            points = int(points_txt)
+            first = int(first_txt)
+        except (ValueError, IndexError):
             continue
+            
         ballots += first
         teams.append({
-          "rank": int(re.sub(r"[^\d]", "", rank_txt) or "0"),
+          "rank": rank,
           "team": canon(team_txt),
-          "points": int(pts),
+          "points": points,
           "first_place": first
         })
 

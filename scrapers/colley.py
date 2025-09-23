@@ -5,7 +5,7 @@ from core.schema import comp_payload
 from core.teams import canon
 from core.log import warn
 
-URL = "https://www.colleyrankings.com/currank.html"
+URL = "https://www.colleyrankings.com/foot2025/rankings/rank04_main.html"
 OUT = "data/2025/week05/colley.json"
 WEEK_TAG = "2025-09-21"
 UA = {"User-Agent":"bcs-sim (contact: you@example.com)"}
@@ -18,9 +18,11 @@ def parse():
     for tr in soup.select("table tr"):
         tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
         if len(tds) < 2: continue
-        if not tds[0].isdigit(): continue
-        rank = int(tds[0])
-        team = canon(re.sub(r"\s+#\d+$", "", tds[1]).strip())
+        # Check if first column is a rank (number followed by period)
+        rank_match = re.match(r"^(\d+)\.$", tds[0])
+        if not rank_match: continue
+        rank = int(rank_match.group(1))
+        team = canon(tds[1].strip())
         teams.append({"rank": rank, "team": team})
     write_json(OUT, comp_payload("colley", WEEK_TAG, teams))
 

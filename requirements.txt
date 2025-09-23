@@ -4,5 +4,6 @@ lxml
 pandas
 python-dateutil
 Pillow
+selenium
 
 

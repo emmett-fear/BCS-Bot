@@ -9,7 +9,7 @@ OUT  = "data/2025/week05/standings.json"
 
 def poll_pct(points, ballots):
     # ballots * 25 is the maximum possible points for that week
-    return (points / float(ballots * 25)) if ballots and points is not None else 0.0
+    return (points / float(ballots * 25)) if ballots and points is not None and points > 0 else 0.0
 
 def comp_points(rank):
     # BCS inverse scale for Top-25 only; unranked = 0

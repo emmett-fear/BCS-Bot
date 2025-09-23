@@ -4,7 +4,7 @@ from core.io import write_json
 from core.schema import comp_payload
 from core.teams import canon
 
-URL = "https://cfrc.com/weekly-rankings/2025"
+URL = "https://cfrc.com/weekly-rankings/2025/5"
 OUT = "data/2025/week05/billingsley.json"
 WEEK_TAG = "2025-09-21"
 UA = {"User-Agent":"bcs-sim (contact: you@example.com)"}
@@ -13,18 +13,27 @@ def parse():
     r = requests.get(URL, headers=UA, timeout=30); r.raise_for_status()
     soup = BeautifulSoup(r.text, "lxml")
     teams = []
-    # Prefer the table listing "Week ..." with Rank/Team; adapt to their markup
+    
+    # Look for the rankings table
     rows = soup.select("table tr")
     for tr in rows:
         tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
-        if len(tds) < 3: continue
-        if not tds[0].isdigit(): continue
-        rank = int(tds[0])
-        team = canon(tds[2] if tds[1].isdigit() else tds[1])
-        teams.append({"rank": rank, "team": team})
-    if not teams:
-        # Some weeks are per-week subpages; add code to follow first "Week 5" link if present
-        pass
+        if len(tds) < 4: continue
+        
+        # Skip empty rows
+        if not tds[0]:
+            continue
+            
+        # Check if this row has a rank (3rd column should be numeric)
+        try:
+            rank = int(tds[2])
+            # Team name is in the 4th column (index 3)
+            team_name = tds[3].strip()
+            if team_name:
+                teams.append({"rank": rank, "team": canon(team_name)})
+        except (ValueError, IndexError):
+            continue
+    
     write_json(OUT, comp_payload("billingsley", WEEK_TAG, teams))
 
 if __name__ == "__main__":
