@@ -44,8 +44,7 @@ def parse():
                 continue
             m = re.search(r"\((\d{1,3})\)", school_txt)
             first = int(m.group(1)) if m else 0
-            ballots += first
-            rank = int(re.sub(r"[^\d]", "", rank_txt) or "0")
+                rank = int(re.sub(r"[^\d]", "", rank_txt) or "0")
             team = canon(re.sub(r"\s*\(\d+\)\s*", "", school_txt).strip())
             points = int(pts_txt)
             teams.append({"rank": rank, "team": team, "points": points, "first_place": first})
@@ -58,8 +57,7 @@ def parse():
             team = canon(re.sub(r"\s*\(\d+\)\s*", "", m.group(2)).strip())
             first = int(m.group(3))
             points = int(m.group(4))
-            ballots += first
-            teams.append({"rank": rank, "team": team, "points": points, "first_place": first})
+                teams.append({"rank": rank, "team": team, "points": points, "first_place": first})
 
     if not teams:
         warn("AP: Could not parse any teams. Check AP_WEEK_URL or selectors.")
@@ -67,7 +65,7 @@ def parse():
         write_json(OUT, poll_payload("ap", WEEK_TAG, 0, []))
         sys.exit(0)
 
-    write_json(OUT, poll_payload("ap", WEEK_TAG, ballots, teams))
+    ballots = __import__("math").ceil(max(t["points"] for t in teams) / 25)\n    write_json(OUT, poll_payload("ap", WEEK_TAG, ballots, teams))
 
 if __name__ == "__main__":
     parse()
