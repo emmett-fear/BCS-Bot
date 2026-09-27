@@ -1,7 +1,7 @@
 import subprocess, sys
 
 SCRIPTS = [
-  "ap.py","coaches.py",
+  "ap.py","coaches.py","marbles.py",
   "colley.py","massey.py","billingsley.py",
   "anderson_hester.py","sagarin.py","wolfe.py"
 ]
