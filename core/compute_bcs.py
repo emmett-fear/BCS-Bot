@@ -39,12 +39,20 @@ def load_comp(name):
 def main():
     ap = load_poll("ap")
     co = load_poll("coaches")
+    marbles = load_comp("marbles")
 
     # Build poll percentages and ranks
     ap_pct = { canon(t["team"]): poll_pct(t.get("points"), ap.get("ballots", 0)) for t in ap.get("teams",[]) }
     co_pct = { canon(t["team"]): poll_pct(t.get("points"), co.get("ballots", 0)) for t in co.get("teams",[]) }
     ap_rank = { canon(t["team"]): t.get("rank") for t in ap.get("teams",[]) }
     co_rank = { canon(t["team"]): t.get("rank") for t in co.get("teams",[]) }
+
+    # Official College Football Marbles. Preserve raw holdings and normalize
+    # proportionally to the current leader so the metric keeps information
+    # about the distance between teams rather than reducing it to ordinal rank.
+    marble_holdings = { canon(t["team"]): float(t.get("marbles", 0)) for t in marbles.get("teams",[]) if t.get("marbles") is not None }
+    max_marbles = max(marble_holdings.values(), default=0.0)
+    marble_pct = { team: (value / max_marbles if max_marbles > 0 else 0.0) for team, value in marble_holdings.items() }
 
     # Load computers into per-team dict of system->inverse points and ranks
     all_systems = ["sagarin","anderson_hester","billingsley","colley","massey","wolfe"]
@@ -67,17 +75,23 @@ def main():
 
     # Compute computer score with drop-high/low (if 6 present)
     rows = []
-    teams = set(ap_pct) | set(co_pct) | set(comp_map)
+    teams = set(ap_pct) | set(co_pct) | set(comp_map) | set(marble_holdings)
     for team in teams:
         vals = [comp_map.get(team,{}).get(s) for s in available_systems]
         vals = [v for v in vals if isinstance(v, float)]
         comp_score = drop_high_low(vals) if vals else 0.0
 
         score = (ap_pct.get(team,0.0) + co_pct.get(team,0.0) + comp_score) / 3.0
+        marble_score = marble_pct.get(team)
+        # BCS+ is only calculated when official Marbles data exists for the team.
+        bcs_plus = ((ap_pct.get(team,0.0) + co_pct.get(team,0.0) + comp_score + marble_score) / 4.0) if marble_score is not None else None
         
         rows.append({
           "team": team,
           "bcs_score": round(score, 6),
+          "bcs_plus_score": round(bcs_plus, 6) if bcs_plus is not None else None,
+          "marbles": round(marble_holdings[team], 3) if team in marble_holdings else None,
+          "marble_pct": round(marble_score, 6) if marble_score is not None else None,
           "computers": round(comp_score, 6),
           "ap_pct": round(ap_pct.get(team,0.0), 6),
           "coaches_pct": round(co_pct.get(team,0.0), 6),
@@ -88,6 +102,13 @@ def main():
 
     rows.sort(key=lambda r: (r["bcs_score"], r["computers"], r["ap_pct"], r["coaches_pct"], r["team"]), reverse=True)
     for i,r in enumerate(rows, 1): r["rank"] = i
+
+    # Rank BCS+ separately without changing Classic BCS order.
+    plus_rows = sorted((r for r in rows if r["bcs_plus_score"] is not None), key=lambda r: (r["bcs_plus_score"], r["team"]), reverse=True)
+    for i, r in enumerate(plus_rows, 1):
+        r["bcs_plus_rank"] = i
+    for r in rows:
+        r.setdefault("bcs_plus_rank", None)
 
     # Calculate computer ranks based on computer scores with tie handling
     comp_scores = [(i, r["computers"]) for i, r in enumerate(rows)]
