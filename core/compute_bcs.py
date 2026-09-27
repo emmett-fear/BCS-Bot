@@ -8,8 +8,21 @@ ROOT = "data/2025/week05"
 OUT  = "data/2025/week05/standings.json"
 
 def poll_pct(points, ballots):
-    # ballots * 25 is the maximum possible points for that week
+    # A 25-team ballot awards 25 points for first, 24 for second, ... 1 for 25th.
     return (points / float(ballots * 25)) if ballots and points is not None and points > 0 else 0.0
+
+def infer_ballots(payload):
+    """Use an explicit ballot count when present; otherwise infer it from poll points.
+
+    The maximum points received by any team cannot exceed ballots * 25, so
+    ceil(max_points / 25) recovers the ballot count for normal AP/Coaches polls
+    without incorrectly summing first-place votes.
+    """
+    explicit = payload.get("ballots")
+    if explicit:
+        return int(explicit)
+    points = [t.get("points", 0) for t in payload.get("teams", [])]
+    return math.ceil(max(points, default=0) / 25) if points else 0
 
 def comp_points(rank):
     # BCS inverse scale for Top-25 only; unranked = 0
@@ -42,8 +55,10 @@ def main():
     marbles = load_comp("marbles")
 
     # Build poll percentages and ranks
-    ap_pct = { canon(t["team"]): poll_pct(t.get("points"), ap.get("ballots", 0)) for t in ap.get("teams",[]) }
-    co_pct = { canon(t["team"]): poll_pct(t.get("points"), co.get("ballots", 0)) for t in co.get("teams",[]) }
+    ap_ballots = infer_ballots(ap)
+    co_ballots = infer_ballots(co)
+    ap_pct = { canon(t["team"]): poll_pct(t.get("points"), ap_ballots) for t in ap.get("teams",[]) }
+    co_pct = { canon(t["team"]): poll_pct(t.get("points"), co_ballots) for t in co.get("teams",[]) }
     ap_rank = { canon(t["team"]): t.get("rank") for t in ap.get("teams",[]) }
     co_rank = { canon(t["team"]): t.get("rank") for t in co.get("teams",[]) }
 
