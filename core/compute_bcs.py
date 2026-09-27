@@ -126,6 +126,17 @@ def main():
     for r in rows:
         r.setdefault("bcs_plus_rank", None)
 
+    # Compare with the last published snapshot when available.
+    latest_path = "data/latest.json"
+    if os.path.exists(latest_path):
+        try:
+            previous = read_json(latest_path)
+            prev_rank = {canon(r["team"]): r.get("bcs_plus_rank") for r in previous.get("rows", [])}
+            for r in rows:
+                r["previous_bcs_plus_rank"] = prev_rank.get(canon(r["team"]))
+        except Exception as exc:
+            warn(f"Could not load previous rankings for movement: {exc}")
+
     # Calculate computer ranks based on computer scores with tie handling
     comp_scores = [(i, r["computers"]) for i, r in enumerate(rows)]
     comp_scores.sort(key=lambda x: x[1], reverse=True)
