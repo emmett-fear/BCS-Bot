@@ -35,7 +35,6 @@ def parse():
         except (ValueError, IndexError):
             continue
             
-        ballots += first
         teams.append({
           "rank": rank,
           "team": canon(team_txt),
@@ -48,7 +47,7 @@ def parse():
         write_json(OUT, poll_payload("coaches", WEEK_TAG, 0, []))
         sys.exit(0)
 
-    write_json(OUT, poll_payload("coaches", WEEK_TAG, ballots, teams))
+    ballots = __import__("math").ceil(max(t["points"] for t in teams) / 25)\n    write_json(OUT, poll_payload("coaches", WEEK_TAG, ballots, teams))
 
 if __name__ == "__main__":
     parse()
