@@ -2,8 +2,9 @@ import os, shutil
 from pathlib import Path
 from core.io import read_json, write_json, timestamp
 from core.log import info
+from core.config import DATA_ROOT
 
-def build_site(week_path: str = "data/2025/week05"):
+def build_site(week_path: str = str(DATA_ROOT)):
     """Build the static site and create latest.json symlink."""
     
     # Create data directory for latest.json at root
@@ -43,7 +44,7 @@ def build_site(week_path: str = "data/2025/week05"):
 
 if __name__ == "__main__":
     import sys
-    week_path = sys.argv[1] if len(sys.argv) > 1 else "data/2025/week05"
+    week_path = sys.argv[1] if len(sys.argv) > 1 else str(DATA_ROOT)
     build_site(week_path)
 
 
