@@ -1,12 +1,14 @@
 import re, requests
 from bs4 import BeautifulSoup
 from core.config import SEASON, WEEK_TAG, output_path
+import os
 from core.io import write_json
 from core.schema import comp_payload
 from core.teams import canon
 from core.log import info
 
-URL = f"https://cfrc.com/weekly-rankings/{SEASON}/5"
+BILLINGSLEY_WEEK = int(os.getenv("BCS_BILLINGSLEY_WEEK", "5"))
+URL = f"https://cfrc.com/weekly-rankings/{SEASON}/{BILLINGSLEY_WEEK}"
 OUT = output_path("billingsley")
 UA = {"User-Agent":"BCS-Bot/2.0"}
 
