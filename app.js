@@ -13,7 +13,7 @@ function load() {
         tr.innerHTML = `
           <td>${r.rank}</td>
           <td>${r.team}</td>
-          <td>${r.bcs_score.toFixed(3)}</td>
+          <td>${r.bcs_score.toFixed(3)}</td>\n          <td>${r.bcs_plus_rank || "—"}</td>\n          <td>${r.bcs_plus_score != null ? r.bcs_plus_score.toFixed(3) : "—"}</td>\n          <td>${r.marbles != null ? r.marbles.toFixed(1) : "—"}</td>\n          <td>${r.marble_pct != null ? r.marble_pct.toFixed(3) : "—"}</td>
           <td>${r.computers.toFixed(3)}</td>
           <td>${r.comp_rank || '—'}</td>
           <td>${r.ap_pct.toFixed(3)}</td>
