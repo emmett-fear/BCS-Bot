@@ -1,30 +1,28 @@
 import requests
 from bs4 import BeautifulSoup
+from core.config import WEEK_TAG, output_path
 from core.io import write_json
 from core.schema import comp_payload
 from core.teams import canon
+from core.log import info
 
-URL = "https://wolferatings.com/ratings.htm"
-OUT = "data/2025/week05/wolfe.json"
-WEEK_TAG = "2025-09-21"
-UA = {"User-Agent":"bcs-sim (contact: you@example.com)"}
+URL="https://wolferatings.com/ratings.htm"
+OUT=output_path("wolfe")
+UA={"User-Agent":"BCS-Bot/2.0"}
 
 def parse():
-    r = requests.get(URL, headers=UA, timeout=30); r.raise_for_status()
-    # If page says "first ratings will be posted on October 12, 2025", return empty.
-    if "first ratings will be posted on October 12, 2025" in r.text:
-        write_json(OUT, comp_payload("wolfe", WEEK_TAG, []))
+    r=requests.get(URL,headers=UA,timeout=30); r.raise_for_status()
+    text=BeautifulSoup(r.text,"lxml").get_text(" ",strip=True)
+    if "first ratings will be posted" in text.lower():
+        write_json(OUT,comp_payload("wolfe",WEEK_TAG,[]))
+        info("Wolfe: ratings not published yet")
         return
-    # Otherwise parse table similarly (rank, team)
-    soup = BeautifulSoup(r.text, "lxml")
-    teams = []
+    soup=BeautifulSoup(r.text,"lxml"); teams=[]
     for tr in soup.select("table tr"):
-        tds = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
-        if len(tds) >= 2 and tds[0].isdigit():
-            teams.append({"rank": int(tds[0]), "team": canon(tds[1])})
-    write_json(OUT, comp_payload("wolfe", WEEK_TAG, teams))
+        cells=[c.get_text(" ",strip=True) for c in tr.find_all("td")]
+        if len(cells)>=2 and cells[0].isdigit():
+            teams.append({"rank":int(cells[0]),"team":canon(cells[1])})
+    if len(teams)<25: raise RuntimeError(f"Wolfe page is live but parser found {len(teams)} teams")
+    write_json(OUT,comp_payload("wolfe",WEEK_TAG,teams))
 
-if __name__ == "__main__":
-    parse()
-
-
+if __name__=="__main__": parse()
