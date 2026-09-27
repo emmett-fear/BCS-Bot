@@ -3,9 +3,10 @@ from statistics import mean
 from core.io import read_json, write_json
 from core.teams import canon
 from core.log import info, warn
+from core.config import DATA_ROOT, WEEK_TAG
 
-ROOT = "data/2025/week05"
-OUT  = "data/2025/week05/standings.json"
+ROOT = str(DATA_ROOT)
+OUT = str(DATA_ROOT / "standings.json")
 
 def poll_pct(points, ballots):
     # A 25-team ballot awards 25 points for first, 24 for second, ... 1 for 25th.
@@ -150,7 +151,7 @@ def main():
     for i, r in enumerate(rows):
         r["comp_rank"] = comp_ranks.get(i, "—")
 
-    write_json(OUT, {"week":"2025-09-21","rows":rows})
+    write_json(OUT, {"week": WEEK_TAG, "computer_systems": available_systems, "rows": rows})
 
 if __name__ == "__main__":
     main()
