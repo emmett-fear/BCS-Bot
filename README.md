@@ -43,3 +43,14 @@ The current scaffold still uses a fixed season/week path. Moving season/week con
 ## Disclaimer
 
 Independent simulation for analysis and entertainment. Not affiliated with the BCS, AP, USA TODAY, any computer ranking provider, or College Football Marbles.
+
+
+## Blind résumé model
+
+`core/resume.py` contains a separate experimental résumé rating. It is intentionally not an input to BCS+.
+
+Allowed inputs: current-season FBS wins/losses, recursive opponent strength, and game site. Road wins receive a modest boost and home losses a modest penalty. Neutral games are neutral.
+
+Explicitly excluded: conference identity, AP/Coaches/CFP rankings, preseason priors, previous seasons, recruiting, betting markets, FPI/SP+, and margin of victory.
+
+The model remains experimental until a trustworthy current-season game-results feed is added and historical backtests are completed.
