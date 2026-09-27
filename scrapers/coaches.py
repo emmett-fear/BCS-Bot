@@ -6,7 +6,7 @@ from core.schema import poll_payload
 from core.teams import canon
 from core.log import info
 
-URL = "https://sportsdata.usatoday.com/football/ncaaf/coaches-poll/"
+URL = "https://sportsdata.usatoday.com/football/ncaaf/coaches-poll/2026-2027/2026-09-27"
 OUT = "data/2026/current/coaches.json"
 WEEK_TAG = "current"
 UA = {"User-Agent": "BCS-Bot/2.0"}
