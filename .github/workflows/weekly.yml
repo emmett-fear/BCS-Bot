@@ -1,37 +1,45 @@
 name: weekly-bcs
 on:
-  schedule:
-    - cron: "30 19 * * 0"   # Sun 19:30 UTC (Sun 12:30 PM MT)
   workflow_dispatch:
-
+  schedule:
+    - cron: "30 19 * * 0"
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BCS_SEASON: "2026"
+      BCS_WEEK: "current"
+      BCS_WEEK_TAG: "2026-09-27"
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
+          python-version: "3.12"
+          cache: pip
       - run: pip install -r requirements.txt
-
-      # 1) SCRAPE
-      - run: python scrapers/run_all.py
-
-      # 2) COMPUTE
-      - run: python -c "from core import compute_bcs; compute_bcs.main()"
-
-      # 3) PUBLISH SITE ARTIFACTS
-      - run: python publish/social_image.py
-      - run: python publish/site_builder.py
-
-      # 4) COMMIT updated data/site
-      - run: |
+      - name: Compile Python
+        run: python -m compileall -q core scrapers publish tests
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Scrape sources
+        run: python scrapers/run_all.py
+      - name: Validate source health
+        run: python core/validate_sources.py
+      - name: Compute rankings
+        run: python -m core.compute_bcs
+      - name: Build site
+        run: python publish/site_builder.py
+      - name: Preserve dated snapshot
+        run: |
+          mkdir -p data/2026/2026-09-27
+          cp data/2026/current/*.json data/2026/2026-09-27/
+      - name: Commit generated data
+        run: |
           git config user.name "bcs-bot"
-          git config user.email "bot@example.com"
-          git add -A
-          git commit -m "Weekly update" || echo "No changes"
+          git config user.email "actions@users.noreply.github.com"
+          git add data bcs_data.js top25.png
+          git diff --cached --quiet || git commit -m "Update BCS+ rankings 2026-09-27"
           git push
-
-
