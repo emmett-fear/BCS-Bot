@@ -2,48 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>Simulated BCS Rankings (Weekly)</title>
+  <title>BCS+ College Football Rankings</title>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="A modern BCS-style college football ranking combining AP, Coaches, computer rankings, and College Football Marbles."/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
   <script src="bcs_data.js"></script>
   <main class="wrap">
-        <header>
-          <h1>Simulated BCS Rankings</h1>
-          <div id="meta"></div>
-        </header>
+    <header>
+      <p class="eyebrow">COLLEGE FOOTBALL RANKINGS</p>
+      <h1>BCS+</h1>
+      <p class="lede">The old BCS idea, with one more on-field signal. AP, Coaches, computers, and College Football Marbles each count for 25%.</p>
+      <div id="meta"></div>
+    </header>
 
-    <section>
-      <table id="table">
-        <thead>
-          <tr>
-            <th>#</th><th>Team</th><th>BCS Score</th><th>BCS+ Rank</th><th>BCS+ Score</th><th>Marbles</th><th>Marbles Score</th><th>Computer Score</th><th>Comp Rank</th><th>AP Poll</th><th>AP Rank</th><th>Coaches Poll</th><th>Coaches Rank</th>
-          </tr>
-        </thead>
-            <tbody></tbody>
-          </table>
-        </section>
+    <section class="table-card">
+      <div class="table-heading">
+        <div><h2>Top 25</h2><p>Sorted by BCS+. Classic BCS remains alongside it for comparison.</p></div>
+      </div>
+      <div class="table-scroll">
+        <table id="table">
+          <thead><tr>
+            <th>BCS+ #</th><th>Team</th><th>BCS+</th><th>Marbles</th><th>Marble Score</th>
+            <th>Classic #</th><th>Classic BCS</th><th>Computer</th><th>Comp #</th>
+            <th>AP</th><th>AP #</th><th>Coaches</th><th>Coaches #</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
 
     <section class="method">
-      <h2>Methodology & Sources</h2>
-      <ul>
-        <li>Classic BCS formula (2004–2013) with six computers; drop highest & lowest computer score; average remaining four.</li>\n        <li>BCS+ = 25% AP + 25% Coaches + 25% computer composite + 25% official College Football Marbles. Marbles are normalized proportionally to the current marble leader.</li>
-        <li>Humans: AP Top 25 (used here as Harris replacement) + USA TODAY Coaches Poll (both scaled by points ÷ (ballots×25)). AP: official hub. Coaches: USA TODAY Sports data weekly pages. </li>
-        <li>Computers: Colley, Massey, Billingsley (CFRC), Anderson & Hester*, Sagarin, Wolfe**.</li>
-      </ul>
-      <p class="small">
-        Sources: AP Top 25 hub; NCAA article listing AP table for Week 5; USA TODAY Coaches data; Colley currank; Massey FBS ratings; CFRC Billingsley; Anderson & Hester; Sagarin directory/legacy; Wolfe 2025 note on Oct 12 first posting.
-      </p>
-      <p class="small">
-        *Anderson & Hester begins November 19, 2025<br>
-        **Wolfe begins October 12, 2025
-      </p>
+      <h2>How BCS+ works</h2>
+      <div class="formula">BCS+ = 25% AP + 25% Coaches + 25% Computers + 25% Marbles</div>
+      <p>AP and Coaches are normalized from poll points. The computer component uses the six classic BCS systems: Anderson & Hester, Billingsley, Colley, Massey, Sagarin, and Wolfe. When all six are available, the highest and lowest computer scores are dropped and the other four are averaged.</p>
+      <p>Marbles uses the official College Football Marbles standings. Raw marble holdings are normalized against the current leader, so the score preserves the gap between teams instead of treating every adjacent rank as equally far apart.</p>
+      <h3>Classic BCS</h3>
+      <p>The original comparison remains unchanged: one-third AP, one-third Coaches, and one-third computer composite. AP stands in for the Harris Poll in this simulation.</p>
+      <p class="small">Some computer systems do not publish early in the season. BCS+ uses the computer systems available that week. If Marbles data is unavailable for a team, BCS+ is not calculated for that team rather than treating missing data as zero.</p>
     </section>
-    <footer><p>Not affiliated with the BCS. For entertainment/analysis only.</p></footer>
+    <footer><p>Independent simulation. Not affiliated with the BCS, AP, USA TODAY, or College Football Marbles.</p></footer>
   </main>
   <script src="app.js"></script>
 </body>
 </html>
-
-
