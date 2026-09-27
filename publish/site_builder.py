@@ -22,6 +22,13 @@ def build_site(week_path: str = "data/2025/week05"):
         data["build_time"] = timestamp()
         data["source_week"] = week_path
         write_json(latest_path, data)
+
+        # Keep the static site's embedded dataset in sync with standings.
+        # app.js reads BCS_DATA directly, so updating latest.json alone is not enough.
+        import json
+        with open("bcs_data.js", "w", encoding="utf-8") as f:
+            f.write("const BCS_DATA = " + json.dumps(data, indent=2) + ";\\n")
+        info("Updated bcs_data.js")
         
     else:
         info(f"Warning: {standings_path} not found, skipping latest.json")
