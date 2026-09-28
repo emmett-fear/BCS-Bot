@@ -45,12 +45,7 @@ jobs:
             # instead (2026-09-27, a Sunday) and count exact weeks from
             # there; every poll from here to the end of the season lands on
             # a Sunday, so this stays correct all season.
-            WEEK_NUMBER=$(python3 -c "
-from datetime import date
-d = date.fromisoformat('$WEEK_TAG')
-anchor = date(2026, 9, 27)
-print(max(1, 4 + round((d - anchor).days / 7)))
-")
+            WEEK_NUMBER=$(python3 -c "from datetime import date; d = date.fromisoformat('$WEEK_TAG'); print(max(1, 4 + round((d - date(2026, 9, 27)).days / 7)))")
           fi
           echo "BCS_WEEK_TAG=$WEEK_TAG" >> "$GITHUB_ENV"
           echo "BCS_WEEK_NUMBER=$WEEK_NUMBER" >> "$GITHUB_ENV"
