@@ -4,9 +4,14 @@ from core.config import DATA_ROOT
 
 RULES={
  "ap":25,"coaches":25,"marbles":130,
- "billingsley":25,"colley":25,"massey":25,"sagarin":100,
+ "billingsley":25,"colley":100,"sagarin":100,
 }
-OPTIONAL={"anderson_hester","wolfe"}
+# anderson_hester and wolfe legitimately publish nothing before mid-season.
+# massey is a legitimate computer system, but masseyratings.com sits behind a
+# Cloudflare JS challenge that blocks plain HTTP scraping outright some weeks;
+# when it does, compute_bcs falls back to the computer systems that are
+# actually reachable rather than failing the whole run over one blocked host.
+OPTIONAL={"anderson_hester","wolfe","massey"}
 
 def load(name):
     p=DATA_ROOT/f"{name}.json"

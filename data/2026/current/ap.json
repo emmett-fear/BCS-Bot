@@ -1,0 +1,157 @@
+{
+  "source": "ap",
+  "week": "2026-09-27",
+  "ballots": 70,
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Texas",
+      "points": 1737,
+      "first_place": 62
+    },
+    {
+      "rank": 2,
+      "team": "Georgia",
+      "points": 1646,
+      "first_place": 6
+    },
+    {
+      "rank": 3,
+      "team": "Notre Dame",
+      "points": 1581,
+      "first_place": 0
+    },
+    {
+      "rank": 4,
+      "team": "Miami",
+      "points": 1501,
+      "first_place": 1
+    },
+    {
+      "rank": 5,
+      "team": "Ohio State",
+      "points": 1465,
+      "first_place": 0
+    },
+    {
+      "rank": 6,
+      "team": "Indiana",
+      "points": 1408,
+      "first_place": 1
+    },
+    {
+      "rank": 7,
+      "team": "Alabama",
+      "points": 1305,
+      "first_place": 0
+    },
+    {
+      "rank": 8,
+      "team": "Florida",
+      "points": 1272,
+      "first_place": 0
+    },
+    {
+      "rank": 9,
+      "team": "Ole Miss",
+      "points": 1089,
+      "first_place": 0
+    },
+    {
+      "rank": 10,
+      "team": "BYU",
+      "points": 1078,
+      "first_place": 0
+    },
+    {
+      "rank": 11,
+      "team": "LSU",
+      "points": 1073,
+      "first_place": 0
+    },
+    {
+      "rank": 12,
+      "team": "Texas Tech",
+      "points": 1053,
+      "first_place": 0
+    },
+    {
+      "rank": 13,
+      "team": "Utah",
+      "points": 903,
+      "first_place": 0
+    },
+    {
+      "rank": 14,
+      "team": "Iowa",
+      "points": 856,
+      "first_place": 0
+    },
+    {
+      "rank": 15,
+      "team": "Oregon",
+      "points": 725,
+      "first_place": 0
+    },
+    {
+      "rank": 16,
+      "team": "Mississippi State",
+      "points": 715,
+      "first_place": 0
+    },
+    {
+      "rank": 17,
+      "team": "Tennessee",
+      "points": 663,
+      "first_place": 0
+    },
+    {
+      "rank": 18,
+      "team": "USC",
+      "points": 410,
+      "first_place": 0
+    },
+    {
+      "rank": 19,
+      "team": "Oklahoma State",
+      "points": 345,
+      "first_place": 0
+    },
+    {
+      "rank": 20,
+      "team": "Houston",
+      "points": 278,
+      "first_place": 0
+    },
+    {
+      "rank": 21,
+      "team": "SMU",
+      "points": 246,
+      "first_place": 0
+    },
+    {
+      "rank": 22,
+      "team": "Boise State",
+      "points": 221,
+      "first_place": 0
+    },
+    {
+      "rank": 23,
+      "team": "UCLA",
+      "points": 218,
+      "first_place": 0
+    },
+    {
+      "rank": 24,
+      "team": "Kentucky",
+      "points": 150,
+      "first_place": 0
+    },
+    {
+      "rank": 25,
+      "team": "Missouri",
+      "points": 118,
+      "first_place": 0
+    }
+  ]
+}

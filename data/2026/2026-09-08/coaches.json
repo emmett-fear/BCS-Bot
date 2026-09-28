@@ -1,0 +1,166 @@
+{
+  "source": "coaches",
+  "week": "2026-09-08",
+  "ballots": 1,
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Ohio State",
+      "points": 25,
+      "first_place": 0
+    },
+    {
+      "rank": 2,
+      "team": "Georgia",
+      "points": 24,
+      "first_place": 0
+    },
+    {
+      "rank": 3,
+      "team": "Texas",
+      "points": 23,
+      "first_place": 0
+    },
+    {
+      "rank": 4,
+      "team": "Notre Dame",
+      "points": 22,
+      "first_place": 0
+    },
+    {
+      "rank": 5,
+      "team": "Indiana",
+      "points": 21,
+      "first_place": 0
+    },
+    {
+      "rank": 6,
+      "team": "Oregon",
+      "points": 20,
+      "first_place": 0
+    },
+    {
+      "rank": 7,
+      "team": "Miami",
+      "points": 19,
+      "first_place": 0
+    },
+    {
+      "rank": 8,
+      "team": "LSU",
+      "points": 18,
+      "first_place": 0
+    },
+    {
+      "rank": 9,
+      "team": "Texas A&M",
+      "points": 17,
+      "first_place": 0
+    },
+    {
+      "rank": 10,
+      "team": "Oklahoma",
+      "points": 16,
+      "first_place": 0
+    },
+    {
+      "rank": 11,
+      "team": "Ole Miss",
+      "points": 15,
+      "first_place": 0
+    },
+    {
+      "rank": 12,
+      "team": "Alabama",
+      "points": 14,
+      "first_place": 0
+    },
+    {
+      "rank": 13,
+      "team": "Texas Tech",
+      "points": 13,
+      "first_place": 0
+    },
+    {
+      "rank": 14,
+      "team": "USC",
+      "points": 12,
+      "first_place": 0
+    },
+    {
+      "rank": 15,
+      "team": "BYU",
+      "points": 11,
+      "first_place": 0
+    },
+    {
+      "rank": 16,
+      "team": "Penn State",
+      "points": 10,
+      "first_place": 0
+    },
+    {
+      "rank": 17,
+      "team": "SMU",
+      "points": 9,
+      "first_place": 0
+    },
+    {
+      "rank": 18,
+      "team": "Tennessee",
+      "points": 8,
+      "first_place": 0
+    },
+    {
+      "rank": 19,
+      "team": "Washington",
+      "points": 7,
+      "first_place": 0
+    },
+    {
+      "rank": 20,
+      "team": "Utah",
+      "points": 6,
+      "first_place": 0
+    },
+    {
+      "rank": 21,
+      "team": "Iowa",
+      "points": 5,
+      "first_place": 0
+    },
+    {
+      "rank": 22,
+      "team": "Houston",
+      "points": 4,
+      "first_place": 0
+    },
+    {
+      "rank": 23,
+      "team": "Missouri",
+      "points": 3,
+      "first_place": 0
+    },
+    {
+      "rank": 24,
+      "team": "Michigan",
+      "points": 2,
+      "first_place": 0
+    },
+    {
+      "rank": 25,
+      "team": "Virginia",
+      "points": 1,
+      "first_place": 0
+    },
+    {
+      "rank": 25,
+      "team": "Florida",
+      "points": 1,
+      "first_place": 0
+    }
+  ],
+  "reconstructed": true,
+  "method": "wikipedia-rank-order (no historical point totals are publicly archived)",
+  "source_url": "https://en.wikipedia.org/wiki/2026_NCAA_Division_I_FBS_football_rankings"
+}

@@ -1,4 +1,4 @@
-import re, requests
+import re, requests, urllib3
 from bs4 import BeautifulSoup
 from core.config import WEEK_TAG, output_path
 from core.io import write_json
@@ -10,8 +10,14 @@ URL="https://sagarin.com/sports/cfsend.htm"
 OUT=output_path("sagarin")
 UA={"User-Agent":"BCS-Bot/2.0"}
 
+# sagarin.com serves a long-expired self-signed certificate on an otherwise
+# reachable, legitimate site. Verification is disabled deliberately for this
+# one long-known host, and the resulting warning is suppressed so it doesn't
+# spam CI logs on every run.
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 def parse():
-    r=requests.get(URL,headers=UA,timeout=30); r.raise_for_status()
+    r=requests.get(URL,headers=UA,timeout=30,verify=False); r.raise_for_status()
     text=BeautifulSoup(r.text,"lxml").get_text("\n")
     teams=[]
     # Sagarin marks FBS teams as A and FCS as AA. Only take A rows.

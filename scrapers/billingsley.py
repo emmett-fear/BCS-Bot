@@ -1,13 +1,17 @@
 import re, requests
 from bs4 import BeautifulSoup
-from core.config import SEASON, WEEK_TAG, output_path
+from core.config import SEASON, WEEK_TAG, WEEK_NUMBER, output_path
 import os
 from core.io import write_json
 from core.schema import comp_payload
 from core.teams import canon
 from core.log import info
 
-BILLINGSLEY_WEEK = int(os.getenv("BCS_BILLINGSLEY_WEEK", "5"))
+# CFRC's own week index runs one ahead of the AP poll's (their "Week 5" page
+# reflects the same 4-games-played state as the AP's "Week 4" poll — verified
+# by comparing win totals across both pages for the same date). Allow an
+# explicit override for the rare week this drifts, but default to the offset.
+BILLINGSLEY_WEEK = int(os.getenv("BCS_BILLINGSLEY_WEEK", str(WEEK_NUMBER + 1)))
 URL = f"https://cfrc.com/weekly-rankings/{SEASON}/{BILLINGSLEY_WEEK}"
 OUT = output_path("billingsley")
 UA = {"User-Agent":"BCS-Bot/2.0"}

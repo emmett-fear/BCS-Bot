@@ -1,14 +1,14 @@
 import math, re
 import requests
 from bs4 import BeautifulSoup
+from core.config import WEEK_TAG, output_path
 from core.io import write_json
 from core.schema import poll_payload
 from core.teams import canon
 from core.log import info
 
 URL = "https://www.ncaa.com/rankings/football/fbs/associated-press"
-OUT = "data/2026/current/ap.json"
-WEEK_TAG = "current"
+OUT = output_path("ap")
 UA = {"User-Agent": "BCS-Bot/2.0"}
 
 def parse():

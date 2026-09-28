@@ -1,0 +1,157 @@
+{
+  "source": "coaches",
+  "week": "2026-09-27",
+  "ballots": 72,
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Texas",
+      "points": 1779,
+      "first_place": 45
+    },
+    {
+      "rank": 2,
+      "team": "Georgia",
+      "points": 1735,
+      "first_place": 17
+    },
+    {
+      "rank": 3,
+      "team": "Notre Dame",
+      "points": 1641,
+      "first_place": 3
+    },
+    {
+      "rank": 4,
+      "team": "Miami",
+      "points": 1569,
+      "first_place": 0
+    },
+    {
+      "rank": 5,
+      "team": "Indiana",
+      "points": 1554,
+      "first_place": 8
+    },
+    {
+      "rank": 6,
+      "team": "Ohio State",
+      "points": 1463,
+      "first_place": 0
+    },
+    {
+      "rank": 7,
+      "team": "Alabama",
+      "points": 1399,
+      "first_place": 0
+    },
+    {
+      "rank": 8,
+      "team": "Florida",
+      "points": 1214,
+      "first_place": 0
+    },
+    {
+      "rank": 9,
+      "team": "BYU",
+      "points": 1166,
+      "first_place": 0
+    },
+    {
+      "rank": 10,
+      "team": "Texas Tech",
+      "points": 1108,
+      "first_place": 0
+    },
+    {
+      "rank": 11,
+      "team": "LSU",
+      "points": 1097,
+      "first_place": 0
+    },
+    {
+      "rank": 12,
+      "team": "Ole Miss",
+      "points": 1021,
+      "first_place": 0
+    },
+    {
+      "rank": 13,
+      "team": "Utah",
+      "points": 917,
+      "first_place": 0
+    },
+    {
+      "rank": 14,
+      "team": "Iowa",
+      "points": 887,
+      "first_place": 0
+    },
+    {
+      "rank": 15,
+      "team": "Oregon",
+      "points": 866,
+      "first_place": 0
+    },
+    {
+      "rank": 16,
+      "team": "Mississippi State",
+      "points": 658,
+      "first_place": 0
+    },
+    {
+      "rank": 17,
+      "team": "Tennessee",
+      "points": 648,
+      "first_place": 0
+    },
+    {
+      "rank": 18,
+      "team": "USC",
+      "points": 511,
+      "first_place": 0
+    },
+    {
+      "rank": 19,
+      "team": "SMU",
+      "points": 327,
+      "first_place": 0
+    },
+    {
+      "rank": 20,
+      "team": "Houston",
+      "points": 301,
+      "first_place": 0
+    },
+    {
+      "rank": 21,
+      "team": "Duke",
+      "points": 230,
+      "first_place": 0
+    },
+    {
+      "rank": 22,
+      "team": "Penn State",
+      "points": 207,
+      "first_place": 0
+    },
+    {
+      "rank": 23,
+      "team": "UCLA",
+      "points": 183,
+      "first_place": 0
+    },
+    {
+      "rank": 24,
+      "team": "Michigan",
+      "points": 166,
+      "first_place": 0
+    },
+    {
+      "rank": 25,
+      "team": "Missouri",
+      "points": 152,
+      "first_place": 0
+    }
+  ]
+}

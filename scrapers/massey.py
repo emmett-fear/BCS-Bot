@@ -4,14 +4,25 @@ from core.config import WEEK_TAG, output_path
 from core.io import write_json
 from core.schema import comp_payload
 from core.teams import canon
-from core.log import info
+from core.log import info, warn
 
 URL="https://masseyratings.com/cf/ratings"
 OUT=output_path("massey")
-UA={"User-Agent":"BCS-Bot/2.0"}
+UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"}
 
 def parse():
-    r=requests.get(URL,headers=UA,timeout=30); r.raise_for_status()
+    r=requests.get(URL,headers=UA,timeout=30)
+    # masseyratings.com sits behind Cloudflare and returns a "Just a moment..."
+    # JS challenge page to any non-browser request, including this one with a
+    # browser-like User-Agent. There is no header-only way around it. Rather
+    # than hard-fail the whole weekly run over one blocked source, publish an
+    # empty result: compute_bcs already averages whichever computer systems
+    # are actually available that week.
+    if r.status_code == 403 or "Just a moment" in r.text[:2000]:
+        write_json(OUT,comp_payload("massey",WEEK_TAG,[]))
+        warn("Massey: blocked by Cloudflare bot-protection, publishing no rows this run")
+        return
+    r.raise_for_status()
     soup=BeautifulSoup(r.text,"lxml"); teams=[]
     for tr in soup.select("table tr"):
         cells=[c.get_text(" ",strip=True) for c in tr.find_all("td")]

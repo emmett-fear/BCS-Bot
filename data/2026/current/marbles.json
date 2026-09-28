@@ -1,0 +1,697 @@
+{
+  "source": "college_football_marbles",
+  "week": "2026-09-27",
+  "url": "https://cfbmarblegame.com/",
+  "teams": [
+    {
+      "rank": 1,
+      "team": "Mississippi State",
+      "marbles": 383.0
+    },
+    {
+      "rank": 2,
+      "team": "Texas",
+      "marbles": 357.0
+    },
+    {
+      "rank": 3,
+      "team": "Florida",
+      "marbles": 350.0
+    },
+    {
+      "rank": 4,
+      "team": "UCLA",
+      "marbles": 347.0
+    },
+    {
+      "rank": 5,
+      "team": "Miami",
+      "marbles": 346.0
+    },
+    {
+      "rank": 6,
+      "team": "Notre Dame",
+      "marbles": 343.0
+    },
+    {
+      "rank": 7,
+      "team": "Alabama",
+      "marbles": 339.0
+    },
+    {
+      "rank": 8,
+      "team": "Iowa",
+      "marbles": 336.0
+    },
+    {
+      "rank": 9,
+      "team": "Virginia Tech",
+      "marbles": 330.0
+    },
+    {
+      "rank": 10,
+      "team": "Duke",
+      "marbles": 314.0
+    },
+    {
+      "rank": 11,
+      "team": "Cincinnati",
+      "marbles": 308.0
+    },
+    {
+      "rank": 12,
+      "team": "Georgia",
+      "marbles": 300.0
+    },
+    {
+      "rank": 13,
+      "team": "Utah",
+      "marbles": 298.0
+    },
+    {
+      "rank": 14,
+      "team": "Pitt",
+      "marbles": 294.0
+    },
+    {
+      "rank": 15,
+      "team": "Clemson",
+      "marbles": 282.0
+    },
+    {
+      "rank": 16,
+      "team": "Nebraska",
+      "marbles": 279.0
+    },
+    {
+      "rank": 17,
+      "team": "Indiana",
+      "marbles": 278.0
+    },
+    {
+      "rank": 18,
+      "team": "Oklahoma State",
+      "marbles": 272.0
+    },
+    {
+      "rank": 19,
+      "team": "BYU",
+      "marbles": 271.0
+    },
+    {
+      "rank": 20,
+      "team": "Texas Tech",
+      "marbles": 270.0
+    },
+    {
+      "rank": 21,
+      "team": "Wake Forest",
+      "marbles": 263.0
+    },
+    {
+      "rank": 22,
+      "team": "LSU",
+      "marbles": 251.0
+    },
+    {
+      "rank": 23,
+      "team": "Oregon",
+      "marbles": 250.0
+    },
+    {
+      "rank": 24,
+      "team": "Ole Miss",
+      "marbles": 249.0
+    },
+    {
+      "rank": 25,
+      "team": "Auburn",
+      "marbles": 247.0
+    },
+    {
+      "rank": 26,
+      "team": "Wisconsin",
+      "marbles": 242.0
+    },
+    {
+      "rank": 27,
+      "team": "Kentucky",
+      "marbles": 238.0
+    },
+    {
+      "rank": 28,
+      "team": "Ohio State",
+      "marbles": 231.0
+    },
+    {
+      "rank": 29,
+      "team": "Minnesota",
+      "marbles": 228.0
+    },
+    {
+      "rank": 30,
+      "team": "UCF",
+      "marbles": 224.0
+    },
+    {
+      "rank": 31,
+      "team": "Baylor",
+      "marbles": 221.0
+    },
+    {
+      "rank": 31,
+      "team": "Missouri",
+      "marbles": 221.0
+    },
+    {
+      "rank": 33,
+      "team": "SMU",
+      "marbles": 219.0
+    },
+    {
+      "rank": 34,
+      "team": "Virginia",
+      "marbles": 215.0
+    },
+    {
+      "rank": 35,
+      "team": "Michigan",
+      "marbles": 214.0
+    },
+    {
+      "rank": 35,
+      "team": "USC",
+      "marbles": 214.0
+    },
+    {
+      "rank": 37,
+      "team": "Vanderbilt",
+      "marbles": 205.0
+    },
+    {
+      "rank": 38,
+      "team": "Northwestern",
+      "marbles": 202.0
+    },
+    {
+      "rank": 38,
+      "team": "West Virginia",
+      "marbles": 202.0
+    },
+    {
+      "rank": 40,
+      "team": "Penn State",
+      "marbles": 193.0
+    },
+    {
+      "rank": 41,
+      "team": "North Carolina",
+      "marbles": 192.0
+    },
+    {
+      "rank": 42,
+      "team": "Tennessee",
+      "marbles": 191.0
+    },
+    {
+      "rank": 43,
+      "team": "Arizona State",
+      "marbles": 190.0
+    },
+    {
+      "rank": 43,
+      "team": "Houston",
+      "marbles": 190.0
+    },
+    {
+      "rank": 45,
+      "team": "Kansas State",
+      "marbles": 188.0
+    },
+    {
+      "rank": 46,
+      "team": "Arizona",
+      "marbles": 187.0
+    },
+    {
+      "rank": 47,
+      "team": "Washington",
+      "marbles": 175.0
+    },
+    {
+      "rank": 48,
+      "team": "Massachusetts",
+      "marbles": 172.0
+    },
+    {
+      "rank": 49,
+      "team": "Colorado",
+      "marbles": 168.0
+    },
+    {
+      "rank": 50,
+      "team": "Louisville",
+      "marbles": 164.0
+    },
+    {
+      "rank": 50,
+      "team": "Oklahoma",
+      "marbles": 164.0
+    },
+    {
+      "rank": 52,
+      "team": "North Dakota State",
+      "marbles": 161.0
+    },
+    {
+      "rank": 53,
+      "team": "South Florida",
+      "marbles": 160.0
+    },
+    {
+      "rank": 54,
+      "team": "James Madison",
+      "marbles": 159.0
+    },
+    {
+      "rank": 55,
+      "team": "Stanford",
+      "marbles": 158.0
+    },
+    {
+      "rank": 55,
+      "team": "Texas A&M",
+      "marbles": 158.0
+    },
+    {
+      "rank": 57,
+      "team": "NC State",
+      "marbles": 157.0
+    },
+    {
+      "rank": 58,
+      "team": "Arkansas",
+      "marbles": 156.0
+    },
+    {
+      "rank": 59,
+      "team": "California",
+      "marbles": 150.0
+    },
+    {
+      "rank": 60,
+      "team": "Boston College",
+      "marbles": 148.0
+    },
+    {
+      "rank": 60,
+      "team": "Fresno State",
+      "marbles": 148.0
+    },
+    {
+      "rank": 62,
+      "team": "Boise State",
+      "marbles": 146.0
+    },
+    {
+      "rank": 62,
+      "team": "Tulsa",
+      "marbles": 146.0
+    },
+    {
+      "rank": 64,
+      "team": "Michigan State",
+      "marbles": 145.0
+    },
+    {
+      "rank": 65,
+      "team": "Florida Atlantic",
+      "marbles": 143.0
+    },
+    {
+      "rank": 66,
+      "team": "TCU",
+      "marbles": 142.0
+    },
+    {
+      "rank": 67,
+      "team": "Marshall",
+      "marbles": 134.0
+    },
+    {
+      "rank": 67,
+      "team": "South Carolina",
+      "marbles": 134.0
+    },
+    {
+      "rank": 69,
+      "team": "Florida State",
+      "marbles": 133.0
+    },
+    {
+      "rank": 69,
+      "team": "Illinois",
+      "marbles": 133.0
+    },
+    {
+      "rank": 71,
+      "team": "Maryland",
+      "marbles": 131.0
+    },
+    {
+      "rank": 72,
+      "team": "Iowa State",
+      "marbles": 130.0
+    },
+    {
+      "rank": 73,
+      "team": "UTSA",
+      "marbles": 125.0
+    },
+    {
+      "rank": 74,
+      "team": "New Mexico",
+      "marbles": 124.0
+    },
+    {
+      "rank": 75,
+      "team": "Georgia State",
+      "marbles": 122.0
+    },
+    {
+      "rank": 75,
+      "team": "Louisiana",
+      "marbles": 122.0
+    },
+    {
+      "rank": 77,
+      "team": "Kansas",
+      "marbles": 120.0
+    },
+    {
+      "rank": 77,
+      "team": "Memphis",
+      "marbles": 120.0
+    },
+    {
+      "rank": 77,
+      "team": "Syracuse",
+      "marbles": 120.0
+    },
+    {
+      "rank": 80,
+      "team": "Liberty",
+      "marbles": 117.0
+    },
+    {
+      "rank": 80,
+      "team": "Toledo",
+      "marbles": 117.0
+    },
+    {
+      "rank": 82,
+      "team": "App State",
+      "marbles": 116.0
+    },
+    {
+      "rank": 83,
+      "team": "Tulane",
+      "marbles": 107.0
+    },
+    {
+      "rank": 84,
+      "team": "Jacksonville State",
+      "marbles": 105.0
+    },
+    {
+      "rank": 85,
+      "team": "UNLV",
+      "marbles": 104.0
+    },
+    {
+      "rank": 86,
+      "team": "UAB",
+      "marbles": 103.0
+    },
+    {
+      "rank": 87,
+      "team": "Miami (OH)",
+      "marbles": 101.0
+    },
+    {
+      "rank": 88,
+      "team": "Air Force",
+      "marbles": 95.0
+    },
+    {
+      "rank": 88,
+      "team": "UConn",
+      "marbles": 95.0
+    },
+    {
+      "rank": 90,
+      "team": "Georgia Tech",
+      "marbles": 94.0
+    },
+    {
+      "rank": 90,
+      "team": "Purdue",
+      "marbles": 94.0
+    },
+    {
+      "rank": 92,
+      "team": "Army",
+      "marbles": 92.0
+    },
+    {
+      "rank": 92,
+      "team": "Kent State",
+      "marbles": 92.0
+    },
+    {
+      "rank": 92,
+      "team": "San José State",
+      "marbles": 92.0
+    },
+    {
+      "rank": 95,
+      "team": "Delaware",
+      "marbles": 91.0
+    },
+    {
+      "rank": 95,
+      "team": "Oregon State",
+      "marbles": 91.0
+    },
+    {
+      "rank": 97,
+      "team": "Rutgers",
+      "marbles": 90.0
+    },
+    {
+      "rank": 98,
+      "team": "East Carolina",
+      "marbles": 88.0
+    },
+    {
+      "rank": 98,
+      "team": "Texas State",
+      "marbles": 88.0
+    },
+    {
+      "rank": 100,
+      "team": "North Texas",
+      "marbles": 87.0
+    },
+    {
+      "rank": 100,
+      "team": "South Alabama",
+      "marbles": 87.0
+    },
+    {
+      "rank": 102,
+      "team": "Middle Tennessee",
+      "marbles": 86.0
+    },
+    {
+      "rank": 103,
+      "team": "Troy",
+      "marbles": 85.0
+    },
+    {
+      "rank": 104,
+      "team": "Arkansas State",
+      "marbles": 83.0
+    },
+    {
+      "rank": 104,
+      "team": "Central Michigan",
+      "marbles": 83.0
+    },
+    {
+      "rank": 104,
+      "team": "Ohio",
+      "marbles": 83.0
+    },
+    {
+      "rank": 107,
+      "team": "Florida International",
+      "marbles": 82.0
+    },
+    {
+      "rank": 107,
+      "team": "Western Michigan",
+      "marbles": 82.0
+    },
+    {
+      "rank": 107,
+      "team": "Wyoming",
+      "marbles": 82.0
+    },
+    {
+      "rank": 110,
+      "team": "Utah State",
+      "marbles": 79.0
+    },
+    {
+      "rank": 111,
+      "team": "Colorado State",
+      "marbles": 78.0
+    },
+    {
+      "rank": 112,
+      "team": "Louisiana Tech",
+      "marbles": 77.0
+    },
+    {
+      "rank": 113,
+      "team": "Hawaii",
+      "marbles": 72.0
+    },
+    {
+      "rank": 114,
+      "team": "Buffalo",
+      "marbles": 70.0
+    },
+    {
+      "rank": 114,
+      "team": "Navy",
+      "marbles": 70.0
+    },
+    {
+      "rank": 116,
+      "team": "Eastern Michigan",
+      "marbles": 67.0
+    },
+    {
+      "rank": 117,
+      "team": "Ball State",
+      "marbles": 62.0
+    },
+    {
+      "rank": 117,
+      "team": "Washington State",
+      "marbles": 62.0
+    },
+    {
+      "rank": 117,
+      "team": "Western Kentucky",
+      "marbles": 62.0
+    },
+    {
+      "rank": 120,
+      "team": "Nevada",
+      "marbles": 60.0
+    },
+    {
+      "rank": 121,
+      "team": "Akron",
+      "marbles": 58.0
+    },
+    {
+      "rank": 121,
+      "team": "Georgia Southern",
+      "marbles": 58.0
+    },
+    {
+      "rank": 121,
+      "team": "Missouri State",
+      "marbles": 58.0
+    },
+    {
+      "rank": 121,
+      "team": "UTEP",
+      "marbles": 58.0
+    },
+    {
+      "rank": 125,
+      "team": "Kennesaw State",
+      "marbles": 53.0
+    },
+    {
+      "rank": 125,
+      "team": "Rice",
+      "marbles": 53.0
+    },
+    {
+      "rank": 125,
+      "team": "Sam Houston",
+      "marbles": 53.0
+    },
+    {
+      "rank": 125,
+      "team": "San Diego State",
+      "marbles": 53.0
+    },
+    {
+      "rank": 125,
+      "team": "Southern Miss",
+      "marbles": 53.0
+    },
+    {
+      "rank": 130,
+      "team": "Coastal Carolina",
+      "marbles": 52.0
+    },
+    {
+      "rank": 130,
+      "team": "New Mexico State",
+      "marbles": 52.0
+    },
+    {
+      "rank": 132,
+      "team": "Old Dominion",
+      "marbles": 49.0
+    },
+    {
+      "rank": 132,
+      "team": "Temple",
+      "marbles": 49.0
+    },
+    {
+      "rank": 134,
+      "team": "Northern Illinois",
+      "marbles": 46.0
+    },
+    {
+      "rank": 135,
+      "team": "Bowling Green",
+      "marbles": 43.0
+    },
+    {
+      "rank": 136,
+      "team": "Charlotte",
+      "marbles": 40.0
+    },
+    {
+      "rank": 137,
+      "team": "UL Monroe",
+      "marbles": 39.0
+    },
+    {
+      "rank": 138,
+      "team": "Sacramento State",
+      "marbles": 36.0
+    }
+  ]
+}

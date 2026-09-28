@@ -1,52 +1,153 @@
-"""Canonical team name helpers."""
+"""Canonical team name helpers.
+
+The canonical spelling for every team is the one College Football Marbles
+uses (it is the most complete, most current source we scrape — see
+scrapers/marbles.py). Every other source gets mapped onto that spelling
+through ALIAS or through match_school() below.
+"""
+
+# Full FBS team list in Marbles' own spelling, refreshed from a live scrape.
+# Used to resolve scraped labels that bundle a mascot name or other cruft
+# around the school name (see match_school below) and, more generally, as
+# the ground truth for "is this actually a known FBS program."
+FBS_TEAMS = [
+  "Air Force","Akron","Alabama","App State","Arizona","Arizona State","Arkansas",
+  "Arkansas State","Army","Auburn","BYU","Ball State","Baylor","Boise State",
+  "Boston College","Bowling Green","Buffalo","California","Central Michigan",
+  "Charlotte","Cincinnati","Clemson","Coastal Carolina","Colorado","Colorado State",
+  "Delaware","Duke","East Carolina","Eastern Michigan","Florida","Florida Atlantic",
+  "Florida International","Florida State","Fresno State","Georgia","Georgia Southern",
+  "Georgia State","Georgia Tech","Hawaii","Houston","Illinois","Indiana","Iowa",
+  "Iowa State","Jacksonville State","James Madison","Kansas","Kansas State",
+  "Kennesaw State","Kent State","Kentucky","LSU","Liberty","Louisiana",
+  "Louisiana Tech","Louisville","Marshall","Maryland","Massachusetts","Memphis",
+  "Miami","Miami (OH)","Michigan","Michigan State","Middle Tennessee","Minnesota",
+  "Mississippi State","Missouri","Missouri State","NC State","Navy","Nebraska",
+  "Nevada","New Mexico","New Mexico State","North Carolina","North Dakota State",
+  "North Texas","Northern Illinois","Northwestern","Notre Dame","Ohio","Ohio State",
+  "Oklahoma","Oklahoma State","Old Dominion","Ole Miss","Oregon","Oregon State",
+  "Penn State","Pitt","Purdue","Rice","Rutgers","SMU","Sacramento State",
+  "Sam Houston","San Diego State","San José State","South Alabama","South Carolina",
+  "South Florida","Southern Miss","Stanford","Syracuse","TCU","Temple","Tennessee",
+  "Texas","Texas A&M","Texas State","Texas Tech","Toledo","Troy","Tulane","Tulsa",
+  "UAB","UCF","UCLA","UConn","UL Monroe","UNLV","USC","UTEP","UTSA","Utah",
+  "Utah State","Vanderbilt","Virginia","Virginia Tech","Wake Forest","Washington",
+  "Washington State","West Virginia","Western Kentucky","Western Michigan",
+  "Wisconsin","Wyoming",
+]
+_FBS_TEAMS_BY_LENGTH = sorted(FBS_TEAMS, key=len, reverse=True)
+
+def match_school(label: str):
+    """Return the known FBS team that `label` starts with (longest match
+    wins, so "Texas A&M" beats "Texas" for a label like "Texas A&M Aggies
+    TAMU"), or None if no known team is a prefix.
+
+    Some sources (notably USA Today's Coaches Poll page) render the team
+    cell as "<School> <Mascot> <Code>" with no reliable separator between
+    the parts, e.g. "Texas Longhorns Tex" or "Miami (FL) Hurricanes MIA-FL".
+    Matching against the known school list, longest-first, recovers the
+    real name without needing a hand-maintained mascot dictionary.
+    """
+    label = label.strip()
+    for name in _FBS_TEAMS_BY_LENGTH:
+        if label == name or label.startswith(name + " "):
+            return name
+    return None
 
 ALIAS = {
   "Miami (FL)": "Miami",
   "Miami (Fla.)": "Miami",
+  "Miami-Florida": "Miami",
+  "Miami (Ohio)": "Miami (OH)",
+  "Miami-Ohio": "Miami (OH)",
+  "Miami OH": "Miami (OH)",
   "Texas-San Antonio": "UTSA",
-  "Texas A&M": "Texas A&M",
+  "Texas-El Paso": "UTEP",
   "Mississippi": "Ole Miss",
   "Southern California": "USC",
+  "Southern Cal": "USC",
+  "Southern Cal.": "USC",
   "Central Florida": "UCF",
+  "Central Florida(UCF)": "UCF",
   "Brigham Young": "BYU",
   "Louisiana State": "LSU",
   "Pittsburgh": "Pitt",
   "Texas Christian": "TCU",
-  # Coaches poll variants with suffixes
-  "Ohio State OhioSt": "Ohio State",
-  "Penn State PSU": "Penn State",
-  "Georgia UGa": "Georgia",
-  "LSU LSU": "LSU",
-  "Oregon ORE": "Oregon",
-  "Miami (FL) MIA-FL": "Miami",
-  "Texas Tex": "Texas",
-  "Florida State FSU": "Florida State",
-  "Texas A&M TexA&M": "Texas A&M",
-  "Oklahoma Okla": "Oklahoma",
-  "Ole Miss Miss": "Ole Miss",
-  "Indiana IU": "Indiana",
-  "Iowa State IaSt": "Iowa State",
-  "Texas Tech TTU": "Texas Tech",
-  "Tennessee Tenn": "Tennessee",
-  "Alabama BAMA": "Alabama",
-  "Georgia Tech GT": "Georgia Tech",
-  "Michigan Mich": "Michigan",
-  "Missouri MIZZOU": "Missouri",
-  "Vanderbilt Vandy": "Vanderbilt",
-  "Notre Dame ND": "Notre Dame",
-  "USC USC": "USC",
-  "Illinois Ill": "Illinois",
-  "BYU BYU": "BYU",
-  "TCU TCU": "TCU",
-  # AP poll variants
-  "Southern Cal.": "USC",
-  # Colley variants
+  "Army West Point": "Army",
+  "Connecticut": "UConn",
+  "Hawai'i": "Hawaii",
+  "Nevada-Las Vegas": "UNLV",
+  "UNC": "North Carolina",
+  "North Carolina St.": "NC State",
+  "North Carolina State": "NC State",
+
+  # "St"/"State" abbreviation variants (Colley, some AP/coaches feeds)
   "Ohio St": "Ohio State",
   "Penn St": "Penn State",
   "Florida St": "Florida State",
   "Iowa St": "Iowa State",
   "Mississippi St": "Mississippi State",
-  # Massey variants (with conference info)
+  "Michigan St": "Michigan State",
+  "Utah St": "Utah State",
+  "Appalachian St": "App State",
+  "Appalachian State": "App State",
+  "Arizona St": "Arizona State",
+  "Arkansas St": "Arkansas State",
+  "Ball St": "Ball State",
+  "Boise St": "Boise State",
+  "Boston Coll": "Boston College",
+  "Colorado St": "Colorado State",
+  "Fresno St": "Fresno State",
+  "Georgia St": "Georgia State",
+  "Jacksonville St": "Jacksonville State",
+  "Kent St": "Kent State",
+  "Missouri St": "Missouri State",
+  "New Mexico St": "New Mexico State",
+  "Oregon St": "Oregon State",
+  "San Diego St": "San Diego State",
+  "Texas St": "Texas State",
+  "Washington St": "Washington State",
+  "West Kentucky": "Western Kentucky",
+  "WKU": "Western Kentucky",
+  "North Dakota St": "North Dakota State",
+  "Kansas St": "Kansas State",
+  "Oklahoma St": "Oklahoma State",
+  "Sacramento St": "Sacramento State",
+
+  # Compass-direction abbreviations (Massey)
+  "Cent Michigan": "Central Michigan",
+  "C Michigan": "Central Michigan",
+  "East Michigan": "Eastern Michigan",
+  "E Michigan": "Eastern Michigan",
+  "W Michigan": "Western Michigan",
+  "N Illinois": "Northern Illinois",
+
+  # Louisiana family
+  "LA Lafayette": "Louisiana",
+  "La. Lafayette": "Louisiana",
+  "Louisiana-Lafayette": "Louisiana",
+  "LA Monroe": "UL Monroe",
+  "La. Monroe": "UL Monroe",
+  "LouisianaMonroe(ULM)": "UL Monroe",
+  "ULM": "UL Monroe",
+
+  # Florida International
+  "Florida Intl": "Florida International",
+  "Fla. International": "Florida International",
+  "Florida Int.": "Florida International",
+  "FL Atlantic": "Florida Atlantic",
+
+  # Sam Houston / Middle Tennessee — dropped "State" from their own branding
+  "Sam Houston St": "Sam Houston",
+  "Sam Houston State": "Sam Houston",
+  "Middle Tenn St": "Middle Tennessee",
+  "MTSU": "Middle Tennessee",
+
+  # San José State — Marbles/AP use the accented form
+  "San Jose St": "San José State",
+  "San Jose State": "San José State",
+
+  # Massey suffixes them with a conference name; strip that off here.
   "Ohio St Big 10": "Ohio State",
   "Penn St Big 10": "Penn State",
   "Florida St Atlantic Coast": "Florida State",
@@ -78,7 +179,7 @@ ALIAS = {
   "Iowa Big 10": "Iowa",
   "Nebraska Big 10": "Nebraska",
   "Utah Big 12": "Utah",
-  "Arizona St Big 12": "Arizona St",
+  "Arizona St Big 12": "Arizona State",
   "Maryland Big 10": "Maryland",
   "Memphis American Athletic": "Memphis",
   "Kansas Big 12": "Kansas",
@@ -105,18 +206,18 @@ ALIAS = {
   "Minnesota Big 10": "Minnesota",
   "Navy American Athletic": "Navy",
   "Clemson Atlantic Coast": "Clemson",
-  "Boise St Mountain West": "Boise St",
+  "Boise St Mountain West": "Boise State",
   "California Atlantic Coast": "California",
   "Virginia Atlantic Coast": "Virginia",
   "Kansas St Big 12": "Kansas State",
   "Colorado Big 12": "Colorado",
-  "Fresno St Mountain West": "Fresno St",
+  "Fresno St Mountain West": "Fresno State",
   "West Virginia Big 12": "West Virginia",
   "Pittsburgh Atlantic Coast": "Pitt",
   "James Madison Sun Belt": "James Madison",
   "Old Dominion Sun Belt": "Old Dominion",
   "Duke Atlantic Coast": "Duke",
-  "Texas St Sun Belt": "Texas St",
+  "Texas St Sun Belt": "Texas State",
   "Ohio Mid-American": "Ohio",
   "Purdue Big 10": "Purdue",
   "North Carolina Atlantic Coast": "North Carolina",
@@ -124,15 +225,15 @@ ALIAS = {
   "Northwestern Big 10": "Northwestern",
   "Army American Athletic": "Army",
   "UT San Antonio American Athletic": "UTSA",
-  "Utah St Mountain West": "Utah St",
-  "Boston College Atlantic Coast": "Boston Coll",
-  "Washington St Pac 12": "Washington St",
+  "Utah St Mountain West": "Utah State",
+  "Boston College Atlantic Coast": "Boston College",
+  "Washington St Pac 12": "Washington State",
   "Virginia Tech Atlantic Coast": "Virginia Tech",
   "New Mexico Mountain West": "New Mexico",
-  "WKU Conference USA": "West Kentucky",
+  "WKU Conference USA": "Western Kentucky",
   "Toledo Mid-American": "Toledo",
   "Oklahoma St Big 12": "Oklahoma State",
-  "San Diego St Mountain West": "San Diego St",
+  "San Diego St Mountain West": "San Diego State",
   "Wake Forest Atlantic Coast": "Wake Forest",
   "UCLA Big 10": "UCLA",
   "Troy Sun Belt": "Troy",
@@ -142,61 +243,50 @@ ALIAS = {
   "Wyoming Mountain West": "Wyoming",
   "Marshall Sun Belt": "Marshall",
   "Bowling Green Mid-American": "Bowling Green",
-  "Jacksonville St Conference USA": "Jacksonville St",
+  "Jacksonville St Conference USA": "Jacksonville State",
   "Hawaii Mountain West": "Hawaii",
   "Ga Southern Sun Belt": "Georgia Southern",
   "Coastal Car Sun Belt": "Coastal Carolina",
-  "W Michigan Mid-American": "W Michigan",
+  "W Michigan Mid-American": "Western Michigan",
   "Miami OH Mid-American": "Miami (OH)",
   "Air Force Mountain West": "Air Force",
   "N Illinois Mid-American": "Northern Illinois",
-  "Missouri St Conference USA": "Missouri St",
-  "Oregon St Pac 12": "Oregon St",
-  "San Jose St Mountain West": "San Jose St",
+  "Missouri St Conference USA": "Missouri State",
+  "Oregon St Pac 12": "Oregon State",
+  "San Jose St Mountain West": "San José State",
   "Tulsa American Athletic": "Tulsa",
-  "Connecticut FBS Indep": "Connecticut",
+  "Connecticut FBS Indep": "UConn",
   "Delaware Conference USA": "Delaware",
-  "Colorado St Mountain West": "Colorado St",
+  "Colorado St Mountain West": "Colorado State",
   "South Alabama Sun Belt": "South Alabama",
   "Temple American Athletic": "Temple",
-  "Appalachian St Sun Belt": "Appalachian St",
+  "Appalachian St Sun Belt": "App State",
   "UAB American Athletic": "UAB",
-  "C Michigan Mid-American": "Cent Michigan",
+  "C Michigan Mid-American": "Central Michigan",
   "Buffalo Mid-American": "Buffalo",
-  "ULM Sun Belt": "LA Monroe",
+  "ULM Sun Belt": "UL Monroe",
   "Liberty Conference USA": "Liberty",
-  "Louisiana Sun Belt": "LA Lafayette",
+  "Louisiana Sun Belt": "Louisiana",
   "Southern Miss Sun Belt": "Southern Miss",
   "Nevada Mountain West": "Nevada",
-  "New Mexico St Conference USA": "New Mexico St",
+  "New Mexico St Conference USA": "New Mexico State",
   "FL Atlantic American Athletic": "Florida Atlantic",
-  "Florida Intl Conference USA": "Florida Intl",
-  "Arkansas St Sun Belt": "Arkansas St",
-  "Georgia St Sun Belt": "Georgia St",
+  "Florida Intl Conference USA": "Florida International",
+  "Arkansas St Sun Belt": "Arkansas State",
+  "Georgia St Sun Belt": "Georgia State",
   "UTEP Conference USA": "UTEP",
-  "Ball St Mid-American": "Ball St",
-  "Sam Houston St Conference USA": "Sam Houston St",
-  "MTSU Conference USA": "Middle Tenn St",
+  "Ball St Mid-American": "Ball State",
+  "Sam Houston St Conference USA": "Sam Houston",
+  "MTSU Conference USA": "Middle Tennessee",
   "Charlotte American Athletic": "Charlotte",
   "Kennesaw Conference USA": "Kennesaw State",
-  "E Michigan Mid-American": "East Michigan",
+  "E Michigan Mid-American": "Eastern Michigan",
   "Akron Mid-American": "Akron",
-      "Kent Mid-American": "Kent St",
-      "Massachusetts Mid-American": "Massachusetts",
-      # Sagarin variants
-      "Miami-Florida": "Miami",
-      "Central Florida(UCF)": "UCF",
-      "LouisianaMonroe(ULM)": "LA Monroe",
-      "Army West Point": "Army",
-      "Fla. International": "Florida Intl",
-      "Florida Int.": "Florida Intl",
-      "Hawai'i": "Hawaii",
-      "Louisiana-Lafayette": "Louisiana",
-      # add as you encounter variants...
+  "Kent Mid-American": "Kent State",
+  "Massachusetts Mid-American": "Massachusetts",
+  # add as you encounter variants...
 }
 
 def canon(name: str) -> str:
     n = name.strip()
     return ALIAS.get(n, n)
-
-

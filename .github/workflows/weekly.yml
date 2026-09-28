@@ -1,7 +1,15 @@
 name: weekly-bcs
 on:
   workflow_dispatch:
+    inputs:
+      week_tag:
+        description: "Override the poll date (YYYY-MM-DD). Leave blank to use today."
+        required: false
+      week_number:
+        description: "Override the AP-poll week number. Leave blank to auto-compute from week_tag."
+        required: false
   schedule:
+    # Sundays at 19:30 UTC, after that week's AP/Coaches polls are released.
     - cron: "30 19 * * 0"
 permissions:
   contents: write
@@ -12,7 +20,11 @@ jobs:
     env:
       BCS_SEASON: "2026"
       BCS_WEEK: "current"
-      BCS_WEEK_TAG: "2026-09-27"
+      # Scrapers run as plain scripts (python scrapers/x.py), not as `-m`
+      # modules, so `from core...` only resolves if the repo root is on
+      # PYTHONPATH -- without this every step past checkout fails with
+      # ModuleNotFoundError: No module named 'core'.
+      PYTHONPATH: ${{ github.workspace }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,6 +32,29 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Resolve this week's date and week number
+        run: |
+          WEEK_TAG="${{ github.event.inputs.week_tag }}"
+          if [ -z "$WEEK_TAG" ]; then WEEK_TAG=$(date -u +%Y-%m-%d); fi
+          WEEK_NUMBER="${{ github.event.inputs.week_number }}"
+          if [ -z "$WEEK_NUMBER" ]; then
+            # Weeks 1-4 (2026-09-08, -13, -20, -27) don't sit on an exact
+            # 7-day cadence -- week 1's poll released on a Tuesday, everything
+            # from week 2 on releases on Sunday -- so a pure "days since
+            # week 1" division misfires on that first gap. Anchor on week 4
+            # instead (2026-09-27, a Sunday) and count exact weeks from
+            # there; every poll from here to the end of the season lands on
+            # a Sunday, so this stays correct all season.
+            WEEK_NUMBER=$(python3 -c "
+from datetime import date
+d = date.fromisoformat('$WEEK_TAG')
+anchor = date(2026, 9, 27)
+print(max(1, 4 + round((d - anchor).days / 7)))
+")
+          fi
+          echo "BCS_WEEK_TAG=$WEEK_TAG" >> "$GITHUB_ENV"
+          echo "BCS_WEEK_NUMBER=$WEEK_NUMBER" >> "$GITHUB_ENV"
+          echo "Resolved week_tag=$WEEK_TAG week_number=$WEEK_NUMBER"
       - name: Compile Python
         run: python -m compileall -q core scrapers publish tests
       - name: Unit tests
@@ -30,16 +65,16 @@ jobs:
         run: python core/validate_sources.py
       - name: Compute rankings
         run: python -m core.compute_bcs
-      - name: Build site
-        run: python publish/site_builder.py
       - name: Preserve dated snapshot
         run: |
-          mkdir -p data/2026/2026-09-27
-          cp data/2026/current/*.json data/2026/2026-09-27/
+          mkdir -p "data/${BCS_SEASON}/${BCS_WEEK_TAG}"
+          cp data/${BCS_SEASON}/current/*.json "data/${BCS_SEASON}/${BCS_WEEK_TAG}/"
+      - name: Build site
+        run: python publish/site_builder.py
       - name: Commit generated data
         run: |
           git config user.name "bcs-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data bcs_data.js top25.png
-          git diff --cached --quiet || git commit -m "Update BCS+ rankings 2026-09-27"
+          git add data bcs_data.js season_data.js top25.png
+          git diff --cached --quiet || git commit -m "Update BCS+ rankings for ${BCS_WEEK_TAG} (week ${BCS_WEEK_NUMBER})"
           git push

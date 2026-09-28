@@ -1,4 +1,4 @@
-import math, os, json
+import math, os
 from statistics import mean
 from core.io import read_json, write_json
 from core.teams import canon
@@ -70,11 +70,9 @@ def main():
     max_marbles = max(marble_holdings.values(), default=0.0)
     marble_pct = { team: (value / max_marbles if max_marbles > 0 else 0.0) for team, value in marble_holdings.items() }
 
-    # Load computers into per-team dict of system->inverse points and ranks
+    # Load computers into per-team dict of system->inverse points
     all_systems = ["sagarin","anderson_hester","billingsley","colley","massey","wolfe"]
     comp_map = {}
-    comp_ranks = {}
-    comp_used_count = { k:0 for k in all_systems }
     available_systems = []
 
     for sysname in all_systems:
@@ -83,11 +81,8 @@ def main():
             available_systems.append(sysname)
             for t in payload.get("teams", []):
                 team = canon(t["team"])
-                rank = t.get("rank")
-                cp = comp_points(rank)
+                cp = comp_points(t.get("rank"))
                 comp_map.setdefault(team, {})[sysname] = cp
-                comp_ranks.setdefault(team, {})[sysname] = rank
-                comp_used_count[sysname] += 1
 
     # Compute computer score with drop-high/low (if 6 present)
     rows = []
@@ -131,9 +126,11 @@ def main():
     if os.path.exists(latest_path):
         try:
             previous = read_json(latest_path)
-            prev_rank = {canon(r["team"]): r.get("bcs_plus_rank") for r in previous.get("rows", [])}
+            prev_plus_rank = {canon(r["team"]): r.get("bcs_plus_rank") for r in previous.get("rows", [])}
+            prev_classic_rank = {canon(r["team"]): r.get("rank") for r in previous.get("rows", [])}
             for r in rows:
-                r["previous_bcs_plus_rank"] = prev_rank.get(canon(r["team"]))
+                r["previous_bcs_plus_rank"] = prev_plus_rank.get(canon(r["team"]))
+                r["previous_rank"] = prev_classic_rank.get(canon(r["team"]))
         except Exception as exc:
             warn(f"Could not load previous rankings for movement: {exc}")
 
