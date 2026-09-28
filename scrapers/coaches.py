@@ -7,7 +7,11 @@ from core.schema import poll_payload
 from core.teams import canon, match_school
 from core.log import info
 
-URL = f"https://sportsdata.usatoday.com/football/ncaaf/coaches-poll/{SEASON}-{SEASON+1}/{WEEK_TAG}"
+# USA Today's own site now redirects the old "{season}-{season+1}" range
+# format to a single-season path; request that directly rather than relying
+# on the redirect (and the redirect masks the request's real URL in requests'
+# 404 error message, which is confusing to debug).
+URL = f"https://sportsdata.usatoday.com/football/ncaaf/coaches-poll/{SEASON}/{WEEK_TAG}"
 OUT = output_path("coaches")
 UA = {"User-Agent": "BCS-Bot/2.0"}
 

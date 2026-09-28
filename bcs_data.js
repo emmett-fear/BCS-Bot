@@ -20,7 +20,7 @@ const BCS_DATA = {
       "coaches_rank": 1,
       "rank": 1,
       "bcs_plus_rank": 1,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 1,
       "previous_rank": 1,
       "comp_rank": "1"
     },
@@ -38,7 +38,7 @@ const BCS_DATA = {
       "coaches_rank": 3,
       "rank": 2,
       "bcs_plus_rank": 2,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 2,
       "previous_rank": 2,
       "comp_rank": "2"
     },
@@ -56,8 +56,8 @@ const BCS_DATA = {
       "coaches_rank": 2,
       "rank": 3,
       "bcs_plus_rank": 3,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 4,
+      "previous_bcs_plus_rank": 3,
+      "previous_rank": 3,
       "comp_rank": "5"
     },
     {
@@ -74,8 +74,8 @@ const BCS_DATA = {
       "coaches_rank": 4,
       "rank": 4,
       "bcs_plus_rank": 4,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 6,
+      "previous_bcs_plus_rank": 4,
+      "previous_rank": 4,
       "comp_rank": "6"
     },
     {
@@ -92,7 +92,7 @@ const BCS_DATA = {
       "coaches_rank": 7,
       "rank": 5,
       "bcs_plus_rank": 5,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 5,
       "previous_rank": 5,
       "comp_rank": "3"
     },
@@ -110,8 +110,8 @@ const BCS_DATA = {
       "coaches_rank": 5,
       "rank": 6,
       "bcs_plus_rank": 7,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 7,
+      "previous_bcs_plus_rank": 7,
+      "previous_rank": 6,
       "comp_rank": "7"
     },
     {
@@ -128,8 +128,8 @@ const BCS_DATA = {
       "coaches_rank": 8,
       "rank": 7,
       "bcs_plus_rank": 6,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 17,
+      "previous_bcs_plus_rank": 6,
+      "previous_rank": 7,
       "comp_rank": "4"
     },
     {
@@ -146,8 +146,8 @@ const BCS_DATA = {
       "coaches_rank": 6,
       "rank": 8,
       "bcs_plus_rank": 8,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 10,
+      "previous_bcs_plus_rank": 8,
+      "previous_rank": 8,
       "comp_rank": "T9"
     },
     {
@@ -164,8 +164,8 @@ const BCS_DATA = {
       "coaches_rank": 10,
       "rank": 9,
       "bcs_plus_rank": 10,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 11,
+      "previous_bcs_plus_rank": 10,
+      "previous_rank": 9,
       "comp_rank": "T9"
     },
     {
@@ -182,8 +182,8 @@ const BCS_DATA = {
       "coaches_rank": 11,
       "rank": 10,
       "bcs_plus_rank": 11,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 13,
+      "previous_bcs_plus_rank": 11,
+      "previous_rank": 10,
       "comp_rank": "13"
     },
     {
@@ -200,8 +200,8 @@ const BCS_DATA = {
       "coaches_rank": 12,
       "rank": 11,
       "bcs_plus_rank": 13,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 3,
+      "previous_bcs_plus_rank": 13,
+      "previous_rank": 11,
       "comp_rank": "14"
     },
     {
@@ -218,8 +218,8 @@ const BCS_DATA = {
       "coaches_rank": 14,
       "rank": 12,
       "bcs_plus_rank": 9,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 18,
+      "previous_bcs_plus_rank": 9,
+      "previous_rank": 12,
       "comp_rank": "8"
     },
     {
@@ -236,8 +236,8 @@ const BCS_DATA = {
       "coaches_rank": 9,
       "rank": 13,
       "bcs_plus_rank": 14,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 8,
+      "previous_bcs_plus_rank": 14,
+      "previous_rank": 13,
       "comp_rank": "22"
     },
     {
@@ -254,8 +254,8 @@ const BCS_DATA = {
       "coaches_rank": 15,
       "rank": 14,
       "bcs_plus_rank": 16,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 19,
+      "previous_bcs_plus_rank": 16,
+      "previous_rank": 14,
       "comp_rank": "11"
     },
     {
@@ -272,8 +272,8 @@ const BCS_DATA = {
       "coaches_rank": 13,
       "rank": 15,
       "bcs_plus_rank": 15,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 16,
+      "previous_bcs_plus_rank": 15,
+      "previous_rank": 15,
       "comp_rank": "15"
     },
     {
@@ -290,8 +290,8 @@ const BCS_DATA = {
       "coaches_rank": 16,
       "rank": 16,
       "bcs_plus_rank": 12,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 31,
+      "previous_bcs_plus_rank": 12,
+      "previous_rank": 16,
       "comp_rank": "12"
     },
     {
@@ -308,8 +308,8 @@ const BCS_DATA = {
       "coaches_rank": 17,
       "rank": 17,
       "bcs_plus_rank": 17,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 15,
+      "previous_bcs_plus_rank": 17,
+      "previous_rank": 17,
       "comp_rank": "17"
     },
     {
@@ -326,8 +326,8 @@ const BCS_DATA = {
       "coaches_rank": 18,
       "rank": 18,
       "bcs_plus_rank": 19,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 9,
+      "previous_bcs_plus_rank": 19,
+      "previous_rank": 18,
       "comp_rank": "T19"
     },
     {
@@ -344,8 +344,8 @@ const BCS_DATA = {
       "coaches_rank": 23,
       "rank": 19,
       "bcs_plus_rank": 18,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 25,
+      "previous_bcs_plus_rank": 18,
+      "previous_rank": 19,
       "comp_rank": "16"
     },
     {
@@ -362,8 +362,8 @@ const BCS_DATA = {
       "coaches_rank": 21,
       "rank": 20,
       "bcs_plus_rank": 20,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 23,
+      "previous_bcs_plus_rank": 20,
+      "previous_rank": 20,
       "comp_rank": "18"
     },
     {
@@ -380,8 +380,8 @@ const BCS_DATA = {
       "coaches_rank": 19,
       "rank": 21,
       "bcs_plus_rank": 25,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 29,
+      "previous_bcs_plus_rank": 25,
+      "previous_rank": 21,
       "comp_rank": "34"
     },
     {
@@ -398,8 +398,8 @@ const BCS_DATA = {
       "coaches_rank": 20,
       "rank": 22,
       "bcs_plus_rank": 28,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 38,
+      "previous_bcs_plus_rank": 28,
+      "previous_rank": 22,
       "comp_rank": "T35"
     },
     {
@@ -416,8 +416,8 @@ const BCS_DATA = {
       "coaches_rank": 24,
       "rank": 23,
       "bcs_plus_rank": 27,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 12,
+      "previous_bcs_plus_rank": 27,
+      "previous_rank": 23,
       "comp_rank": "T24"
     },
     {
@@ -434,8 +434,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 24,
       "bcs_plus_rank": 35,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 22,
+      "previous_bcs_plus_rank": 35,
+      "previous_rank": 24,
       "comp_rank": "T19"
     },
     {
@@ -452,8 +452,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 25,
       "bcs_plus_rank": 21,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 33,
+      "previous_bcs_plus_rank": 21,
+      "previous_rank": 25,
       "comp_rank": "T19"
     },
     {
@@ -470,8 +470,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 26,
       "bcs_plus_rank": 23,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 24,
+      "previous_bcs_plus_rank": 23,
+      "previous_rank": 26,
       "comp_rank": "23"
     },
     {
@@ -488,7 +488,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 27,
       "bcs_plus_rank": 37,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 37,
       "previous_rank": 27,
       "comp_rank": "T24"
     },
@@ -506,8 +506,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 28,
       "bcs_plus_rank": 26,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 76,
+      "previous_bcs_plus_rank": 26,
+      "previous_rank": 28,
       "comp_rank": "T35"
     },
     {
@@ -524,8 +524,8 @@ const BCS_DATA = {
       "coaches_rank": 22,
       "rank": 29,
       "bcs_plus_rank": 34,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 14,
+      "previous_bcs_plus_rank": 34,
+      "previous_rank": 29,
       "comp_rank": "T30"
     },
     {
@@ -542,8 +542,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 30,
       "bcs_plus_rank": 24,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 84,
+      "previous_bcs_plus_rank": 24,
+      "previous_rank": 30,
       "comp_rank": "26"
     },
     {
@@ -560,8 +560,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 31,
       "bcs_plus_rank": 22,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 30,
+      "previous_bcs_plus_rank": 22,
+      "previous_rank": 31,
       "comp_rank": "27"
     },
     {
@@ -578,8 +578,8 @@ const BCS_DATA = {
       "coaches_rank": 25,
       "rank": 32,
       "bcs_plus_rank": 31,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 21,
+      "previous_bcs_plus_rank": 31,
+      "previous_rank": 32,
       "comp_rank": "T35"
     },
     {
@@ -596,8 +596,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 33,
       "bcs_plus_rank": 29,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 130,
+      "previous_bcs_plus_rank": 29,
+      "previous_rank": 33,
       "comp_rank": "28"
     },
     {
@@ -614,8 +614,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 34,
       "bcs_plus_rank": 46,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 127,
+      "previous_bcs_plus_rank": 46,
+      "previous_rank": 34,
       "comp_rank": "T35"
     },
     {
@@ -632,8 +632,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 35,
       "bcs_plus_rank": 45,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 34,
+      "previous_bcs_plus_rank": 45,
+      "previous_rank": 35,
       "comp_rank": "29"
     },
     {
@@ -650,8 +650,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 36,
       "bcs_plus_rank": 33,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 99,
+      "previous_bcs_plus_rank": 33,
+      "previous_rank": 36,
       "comp_rank": "T35"
     },
     {
@@ -668,8 +668,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 37,
       "bcs_plus_rank": 48,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 64,
+      "previous_bcs_plus_rank": 48,
+      "previous_rank": 37,
       "comp_rank": "T30"
     },
     {
@@ -686,8 +686,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 38,
       "bcs_plus_rank": 52,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 36,
+      "previous_bcs_plus_rank": 52,
+      "previous_rank": 38,
       "comp_rank": "32"
     },
     {
@@ -704,8 +704,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 39,
       "bcs_plus_rank": 32,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 45,
+      "previous_bcs_plus_rank": 32,
+      "previous_rank": 39,
       "comp_rank": "33"
     },
     {
@@ -722,7 +722,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 40,
       "bcs_plus_rank": 107,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 107,
       "previous_rank": 40,
       "comp_rank": "T35"
     },
@@ -740,7 +740,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 41,
       "bcs_plus_rank": 36,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 36,
       "previous_rank": 41,
       "comp_rank": "T35"
     },
@@ -758,7 +758,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 42,
       "bcs_plus_rank": 108,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 108,
       "previous_rank": 42,
       "comp_rank": "T35"
     },
@@ -776,7 +776,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 43,
       "bcs_plus_rank": 117,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 117,
       "previous_rank": 43,
       "comp_rank": "T35"
     },
@@ -794,8 +794,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 44,
       "bcs_plus_rank": 43,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 37,
+      "previous_bcs_plus_rank": 43,
+      "previous_rank": 44,
       "comp_rank": "T35"
     },
     {
@@ -812,8 +812,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 45,
       "bcs_plus_rank": 118,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 44,
+      "previous_bcs_plus_rank": 118,
+      "previous_rank": 45,
       "comp_rank": "T35"
     },
     {
@@ -830,8 +830,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 46,
       "bcs_plus_rank": 53,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 35,
+      "previous_bcs_plus_rank": 53,
+      "previous_rank": 46,
       "comp_rank": "T35"
     },
     {
@@ -848,8 +848,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 47,
       "bcs_plus_rank": 41,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 46,
+      "previous_bcs_plus_rank": 41,
+      "previous_rank": 47,
       "comp_rank": "T35"
     },
     {
@@ -866,8 +866,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 48,
       "bcs_plus_rank": 42,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 32,
+      "previous_bcs_plus_rank": 42,
+      "previous_rank": 48,
       "comp_rank": "T35"
     },
     {
@@ -884,8 +884,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 49,
       "bcs_plus_rank": 110,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 47,
+      "previous_bcs_plus_rank": 110,
+      "previous_rank": 49,
       "comp_rank": "T35"
     },
     {
@@ -902,8 +902,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 50,
       "bcs_plus_rank": 73,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 48,
+      "previous_bcs_plus_rank": 73,
+      "previous_rank": 50,
       "comp_rank": "T35"
     },
     {
@@ -920,8 +920,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 51,
       "bcs_plus_rank": 121,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 49,
+      "previous_bcs_plus_rank": 121,
+      "previous_rank": 51,
       "comp_rank": "T35"
     },
     {
@@ -938,8 +938,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 52,
       "bcs_plus_rank": 85,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 50,
+      "previous_bcs_plus_rank": 85,
+      "previous_rank": 52,
       "comp_rank": "T35"
     },
     {
@@ -956,8 +956,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 53,
       "bcs_plus_rank": 137,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 51,
+      "previous_bcs_plus_rank": 137,
+      "previous_rank": 53,
       "comp_rank": "T35"
     },
     {
@@ -974,8 +974,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 54,
       "bcs_plus_rank": 88,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 52,
+      "previous_bcs_plus_rank": 88,
+      "previous_rank": 54,
       "comp_rank": "T35"
     },
     {
@@ -992,8 +992,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 55,
       "bcs_plus_rank": 39,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 53,
+      "previous_bcs_plus_rank": 39,
+      "previous_rank": 55,
       "comp_rank": "T35"
     },
     {
@@ -1010,8 +1010,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 56,
       "bcs_plus_rank": 86,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 54,
+      "previous_bcs_plus_rank": 86,
+      "previous_rank": 56,
       "comp_rank": "T35"
     },
     {
@@ -1028,8 +1028,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 57,
       "bcs_plus_rank": 63,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 28,
+      "previous_bcs_plus_rank": 63,
+      "previous_rank": 57,
       "comp_rank": "T35"
     },
     {
@@ -1046,8 +1046,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 58,
       "bcs_plus_rank": 83,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 55,
+      "previous_bcs_plus_rank": 83,
+      "previous_rank": 58,
       "comp_rank": "T35"
     },
     {
@@ -1064,8 +1064,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 59,
       "bcs_plus_rank": 103,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 56,
+      "previous_bcs_plus_rank": 103,
+      "previous_rank": 59,
       "comp_rank": "T35"
     },
     {
@@ -1082,8 +1082,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 60,
       "bcs_plus_rank": 80,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 57,
+      "previous_bcs_plus_rank": 80,
+      "previous_rank": 60,
       "comp_rank": "T35"
     },
     {
@@ -1100,8 +1100,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 61,
       "bcs_plus_rank": 98,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 58,
+      "previous_bcs_plus_rank": 98,
+      "previous_rank": 61,
       "comp_rank": "T35"
     },
     {
@@ -1118,8 +1118,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 62,
       "bcs_plus_rank": 132,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 59,
+      "previous_bcs_plus_rank": 132,
+      "previous_rank": 62,
       "comp_rank": "T35"
     },
     {
@@ -1136,8 +1136,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 63,
       "bcs_plus_rank": 66,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 60,
+      "previous_bcs_plus_rank": 66,
+      "previous_rank": 63,
       "comp_rank": "T35"
     },
     {
@@ -1154,8 +1154,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 64,
       "bcs_plus_rank": 77,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 61,
+      "previous_bcs_plus_rank": 77,
+      "previous_rank": 64,
       "comp_rank": "T35"
     },
     {
@@ -1172,8 +1172,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 65,
       "bcs_plus_rank": 57,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 62,
+      "previous_bcs_plus_rank": 57,
+      "previous_rank": 65,
       "comp_rank": "T35"
     },
     {
@@ -1190,8 +1190,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 66,
       "bcs_plus_rank": 125,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 63,
+      "previous_bcs_plus_rank": 125,
+      "previous_rank": 66,
       "comp_rank": "T35"
     },
     {
@@ -1208,8 +1208,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 67,
       "bcs_plus_rank": 67,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 65,
+      "previous_bcs_plus_rank": 67,
+      "previous_rank": 67,
       "comp_rank": "T35"
     },
     {
@@ -1226,8 +1226,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 68,
       "bcs_plus_rank": 100,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 66,
+      "previous_bcs_plus_rank": 100,
+      "previous_rank": 68,
       "comp_rank": "T35"
     },
     {
@@ -1244,8 +1244,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 69,
       "bcs_plus_rank": 92,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 67,
+      "previous_bcs_plus_rank": 92,
+      "previous_rank": 69,
       "comp_rank": "T35"
     },
     {
@@ -1262,8 +1262,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 70,
       "bcs_plus_rank": 126,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 68,
+      "previous_bcs_plus_rank": 126,
+      "previous_rank": 70,
       "comp_rank": "T35"
     },
     {
@@ -1280,8 +1280,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 71,
       "bcs_plus_rank": 127,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 69,
+      "previous_bcs_plus_rank": 127,
+      "previous_rank": 71,
       "comp_rank": "T35"
     },
     {
@@ -1298,8 +1298,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 72,
       "bcs_plus_rank": 138,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 70,
+      "previous_bcs_plus_rank": 138,
+      "previous_rank": 72,
       "comp_rank": "T35"
     },
     {
@@ -1316,8 +1316,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 73,
       "bcs_plus_rank": 97,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 71,
+      "previous_bcs_plus_rank": 97,
+      "previous_rank": 73,
       "comp_rank": "T35"
     },
     {
@@ -1334,8 +1334,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 74,
       "bcs_plus_rank": 128,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 72,
+      "previous_bcs_plus_rank": 128,
+      "previous_rank": 74,
       "comp_rank": "T35"
     },
     {
@@ -1352,8 +1352,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 75,
       "bcs_plus_rank": 90,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 73,
+      "previous_bcs_plus_rank": 90,
+      "previous_rank": 75,
       "comp_rank": "T35"
     },
     {
@@ -1370,8 +1370,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 76,
       "bcs_plus_rank": 95,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 74,
+      "previous_bcs_plus_rank": 95,
+      "previous_rank": 76,
       "comp_rank": "T35"
     },
     {
@@ -1388,8 +1388,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 77,
       "bcs_plus_rank": 133,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 75,
+      "previous_bcs_plus_rank": 133,
+      "previous_rank": 77,
       "comp_rank": "T35"
     },
     {
@@ -1406,8 +1406,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 78,
       "bcs_plus_rank": 104,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 77,
+      "previous_bcs_plus_rank": 104,
+      "previous_rank": 78,
       "comp_rank": "T35"
     },
     {
@@ -1424,8 +1424,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 79,
       "bcs_plus_rank": 44,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 26,
+      "previous_bcs_plus_rank": 44,
+      "previous_rank": 79,
       "comp_rank": "T35"
     },
     {
@@ -1442,8 +1442,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 80,
       "bcs_plus_rank": 134,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 78,
+      "previous_bcs_plus_rank": 134,
+      "previous_rank": 80,
       "comp_rank": "T35"
     },
     {
@@ -1460,8 +1460,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 81,
       "bcs_plus_rank": 101,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 79,
+      "previous_bcs_plus_rank": 101,
+      "previous_rank": 81,
       "comp_rank": "T35"
     },
     {
@@ -1478,8 +1478,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 82,
       "bcs_plus_rank": 47,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 80,
+      "previous_bcs_plus_rank": 47,
+      "previous_rank": 82,
       "comp_rank": "T35"
     },
     {
@@ -1496,8 +1496,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 83,
       "bcs_plus_rank": 130,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 81,
+      "previous_bcs_plus_rank": 130,
+      "previous_rank": 83,
       "comp_rank": "T35"
     },
     {
@@ -1514,8 +1514,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 84,
       "bcs_plus_rank": 74,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 82,
+      "previous_bcs_plus_rank": 74,
+      "previous_rank": 84,
       "comp_rank": "T35"
     },
     {
@@ -1532,8 +1532,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 85,
       "bcs_plus_rank": 120,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 83,
+      "previous_bcs_plus_rank": 120,
+      "previous_rank": 85,
       "comp_rank": "T35"
     },
     {
@@ -1550,8 +1550,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 86,
       "bcs_plus_rank": 114,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 85,
+      "previous_bcs_plus_rank": 114,
+      "previous_rank": 86,
       "comp_rank": "T35"
     },
     {
@@ -1568,8 +1568,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 87,
       "bcs_plus_rank": 58,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 86,
+      "previous_bcs_plus_rank": 58,
+      "previous_rank": 87,
       "comp_rank": "T35"
     },
     {
@@ -1586,8 +1586,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 88,
       "bcs_plus_rank": 122,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 87,
+      "previous_bcs_plus_rank": 122,
+      "previous_rank": 88,
       "comp_rank": "T35"
     },
     {
@@ -1604,8 +1604,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 89,
       "bcs_plus_rank": 38,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 88,
+      "previous_bcs_plus_rank": 38,
+      "previous_rank": 89,
       "comp_rank": "T35"
     },
     {
@@ -1622,8 +1622,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 90,
       "bcs_plus_rank": 102,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 89,
+      "previous_bcs_plus_rank": 102,
+      "previous_rank": 90,
       "comp_rank": "T35"
     },
     {
@@ -1640,8 +1640,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 91,
       "bcs_plus_rank": 64,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 90,
+      "previous_bcs_plus_rank": 64,
+      "previous_rank": 91,
       "comp_rank": "T35"
     },
     {
@@ -1658,8 +1658,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 92,
       "bcs_plus_rank": 87,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 91,
+      "previous_bcs_plus_rank": 87,
+      "previous_rank": 92,
       "comp_rank": "T35"
     },
     {
@@ -1676,8 +1676,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 93,
       "bcs_plus_rank": 78,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 92,
+      "previous_bcs_plus_rank": 78,
+      "previous_rank": 93,
       "comp_rank": "T35"
     },
     {
@@ -1694,8 +1694,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 94,
       "bcs_plus_rank": 54,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 93,
+      "previous_bcs_plus_rank": 54,
+      "previous_rank": 94,
       "comp_rank": "T35"
     },
     {
@@ -1712,8 +1712,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 95,
       "bcs_plus_rank": 71,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 94,
+      "previous_bcs_plus_rank": 71,
+      "previous_rank": 95,
       "comp_rank": "T35"
     },
     {
@@ -1730,8 +1730,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 96,
       "bcs_plus_rank": 68,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 95,
+      "previous_bcs_plus_rank": 68,
+      "previous_rank": 96,
       "comp_rank": "T35"
     },
     {
@@ -1748,8 +1748,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 97,
       "bcs_plus_rank": 56,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 20,
+      "previous_bcs_plus_rank": 56,
+      "previous_rank": 97,
       "comp_rank": "T35"
     },
     {
@@ -1766,8 +1766,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 98,
       "bcs_plus_rank": 112,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 96,
+      "previous_bcs_plus_rank": 112,
+      "previous_rank": 98,
       "comp_rank": "T35"
     },
     {
@@ -1784,8 +1784,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 99,
       "bcs_plus_rank": 75,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 97,
+      "previous_bcs_plus_rank": 75,
+      "previous_rank": 99,
       "comp_rank": "T35"
     },
     {
@@ -1802,8 +1802,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 100,
       "bcs_plus_rank": 81,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 98,
+      "previous_bcs_plus_rank": 81,
+      "previous_rank": 100,
       "comp_rank": "T35"
     },
     {
@@ -1820,8 +1820,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 101,
       "bcs_plus_rank": 93,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 100,
+      "previous_bcs_plus_rank": 93,
+      "previous_rank": 101,
       "comp_rank": "T35"
     },
     {
@@ -1838,8 +1838,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 102,
       "bcs_plus_rank": 129,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 101,
+      "previous_bcs_plus_rank": 129,
+      "previous_rank": 102,
       "comp_rank": "T35"
     },
     {
@@ -1856,8 +1856,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 103,
       "bcs_plus_rank": 50,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 39,
+      "previous_bcs_plus_rank": 50,
+      "previous_rank": 103,
       "comp_rank": "T35"
     },
     {
@@ -1874,8 +1874,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 104,
       "bcs_plus_rank": 79,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 102,
+      "previous_bcs_plus_rank": 79,
+      "previous_rank": 104,
       "comp_rank": "T35"
     },
     {
@@ -1892,8 +1892,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 105,
       "bcs_plus_rank": 84,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 103,
+      "previous_bcs_plus_rank": 84,
+      "previous_rank": 105,
       "comp_rank": "T35"
     },
     {
@@ -1910,8 +1910,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 106,
       "bcs_plus_rank": 72,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 104,
+      "previous_bcs_plus_rank": 72,
+      "previous_rank": 106,
       "comp_rank": "T35"
     },
     {
@@ -1928,8 +1928,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 107,
       "bcs_plus_rank": 69,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 105,
+      "previous_bcs_plus_rank": 69,
+      "previous_rank": 107,
       "comp_rank": "T35"
     },
     {
@@ -1946,8 +1946,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 108,
       "bcs_plus_rank": 113,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 106,
+      "previous_bcs_plus_rank": 113,
+      "previous_rank": 108,
       "comp_rank": "T35"
     },
     {
@@ -1964,8 +1964,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 109,
       "bcs_plus_rank": 91,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 107,
+      "previous_bcs_plus_rank": 91,
+      "previous_rank": 109,
       "comp_rank": "T35"
     },
     {
@@ -1982,8 +1982,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 110,
       "bcs_plus_rank": 76,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 108,
+      "previous_bcs_plus_rank": 76,
+      "previous_rank": 110,
       "comp_rank": "T35"
     },
     {
@@ -2000,8 +2000,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 111,
       "bcs_plus_rank": 123,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 109,
+      "previous_bcs_plus_rank": 123,
+      "previous_rank": 111,
       "comp_rank": "T35"
     },
     {
@@ -2018,8 +2018,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 112,
       "bcs_plus_rank": 61,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 110,
+      "previous_bcs_plus_rank": 61,
+      "previous_rank": 112,
       "comp_rank": "T35"
     },
     {
@@ -2036,8 +2036,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 113,
       "bcs_plus_rank": 70,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 111,
+      "previous_bcs_plus_rank": 70,
+      "previous_rank": 113,
       "comp_rank": "T35"
     },
     {
@@ -2054,8 +2054,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 114,
       "bcs_plus_rank": 109,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 112,
+      "previous_bcs_plus_rank": 109,
+      "previous_rank": 114,
       "comp_rank": "T35"
     },
     {
@@ -2072,8 +2072,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 115,
       "bcs_plus_rank": 65,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 113,
+      "previous_bcs_plus_rank": 65,
+      "previous_rank": 115,
       "comp_rank": "T35"
     },
     {
@@ -2090,8 +2090,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 116,
       "bcs_plus_rank": 116,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 114,
+      "previous_bcs_plus_rank": 116,
+      "previous_rank": 116,
       "comp_rank": "T35"
     },
     {
@@ -2108,8 +2108,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 117,
       "bcs_plus_rank": 99,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 115,
+      "previous_bcs_plus_rank": 99,
+      "previous_rank": 117,
       "comp_rank": "T35"
     },
     {
@@ -2126,8 +2126,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 118,
       "bcs_plus_rank": 96,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 116,
+      "previous_bcs_plus_rank": 96,
+      "previous_rank": 118,
       "comp_rank": "T35"
     },
     {
@@ -2144,8 +2144,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 119,
       "bcs_plus_rank": 111,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 117,
+      "previous_bcs_plus_rank": 111,
+      "previous_rank": 119,
       "comp_rank": "T35"
     },
     {
@@ -2162,8 +2162,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 120,
       "bcs_plus_rank": 55,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 118,
+      "previous_bcs_plus_rank": 55,
+      "previous_rank": 120,
       "comp_rank": "T35"
     },
     {
@@ -2180,8 +2180,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 121,
       "bcs_plus_rank": 131,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 119,
+      "previous_bcs_plus_rank": 131,
+      "previous_rank": 121,
       "comp_rank": "T35"
     },
     {
@@ -2198,8 +2198,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 122,
       "bcs_plus_rank": 30,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 120,
+      "previous_bcs_plus_rank": 30,
+      "previous_rank": 122,
       "comp_rank": "T35"
     },
     {
@@ -2216,8 +2216,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 123,
       "bcs_plus_rank": 136,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 121,
+      "previous_bcs_plus_rank": 136,
+      "previous_rank": 123,
       "comp_rank": "T35"
     },
     {
@@ -2234,8 +2234,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 124,
       "bcs_plus_rank": 105,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 122,
+      "previous_bcs_plus_rank": 105,
+      "previous_rank": 124,
       "comp_rank": "T35"
     },
     {
@@ -2252,8 +2252,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 125,
       "bcs_plus_rank": 60,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 123,
+      "previous_bcs_plus_rank": 60,
+      "previous_rank": 125,
       "comp_rank": "T35"
     },
     {
@@ -2270,8 +2270,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 126,
       "bcs_plus_rank": 115,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 124,
+      "previous_bcs_plus_rank": 115,
+      "previous_rank": 126,
       "comp_rank": "T35"
     },
     {
@@ -2288,8 +2288,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 127,
       "bcs_plus_rank": 135,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 125,
+      "previous_bcs_plus_rank": 135,
+      "previous_rank": 127,
       "comp_rank": "T35"
     },
     {
@@ -2306,8 +2306,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 128,
       "bcs_plus_rank": 62,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 126,
+      "previous_bcs_plus_rank": 62,
+      "previous_rank": 128,
       "comp_rank": "T35"
     },
     {
@@ -2324,8 +2324,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 129,
       "bcs_plus_rank": 40,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 128,
+      "previous_bcs_plus_rank": 40,
+      "previous_rank": 129,
       "comp_rank": "T35"
     },
     {
@@ -2342,8 +2342,8 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 130,
       "bcs_plus_rank": 119,
-      "previous_bcs_plus_rank": null,
-      "previous_rank": 129,
+      "previous_bcs_plus_rank": 119,
+      "previous_rank": 130,
       "comp_rank": "T35"
     },
     {
@@ -2360,7 +2360,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 131,
       "bcs_plus_rank": 94,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 94,
       "previous_rank": 131,
       "comp_rank": "T35"
     },
@@ -2378,7 +2378,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 132,
       "bcs_plus_rank": 106,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 106,
       "previous_rank": 132,
       "comp_rank": "T35"
     },
@@ -2396,7 +2396,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 133,
       "bcs_plus_rank": 59,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 59,
       "previous_rank": 133,
       "comp_rank": "T35"
     },
@@ -2414,7 +2414,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 134,
       "bcs_plus_rank": 49,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 49,
       "previous_rank": 134,
       "comp_rank": "T35"
     },
@@ -2432,7 +2432,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 135,
       "bcs_plus_rank": 51,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 51,
       "previous_rank": 135,
       "comp_rank": "T35"
     },
@@ -2450,7 +2450,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 136,
       "bcs_plus_rank": 82,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 82,
       "previous_rank": 136,
       "comp_rank": "T35"
     },
@@ -2468,7 +2468,7 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 137,
       "bcs_plus_rank": 124,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 124,
       "previous_rank": 137,
       "comp_rank": "T35"
     },
@@ -2486,11 +2486,11 @@ const BCS_DATA = {
       "coaches_rank": null,
       "rank": 138,
       "bcs_plus_rank": 89,
-      "previous_bcs_plus_rank": null,
+      "previous_bcs_plus_rank": 89,
       "previous_rank": 138,
       "comp_rank": "T35"
     }
   ],
-  "build_time": "2026-09-28T00:57:34Z",
+  "build_time": "2026-09-28T01:02:21Z",
   "source_week": "data/2026/current"
 };

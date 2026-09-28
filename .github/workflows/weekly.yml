@@ -35,7 +35,16 @@ jobs:
       - name: Resolve this week's date and week number
         run: |
           WEEK_TAG="${{ github.event.inputs.week_tag }}"
-          if [ -z "$WEEK_TAG" ]; then WEEK_TAG=$(date -u +%Y-%m-%d); fi
+          if [ -z "$WEEK_TAG" ]; then
+            # AP/Coaches poll pages are dated by the Sunday they released on.
+            # The schedule trigger always fires on Sunday, so "today" is
+            # normally correct -- but a manual workflow_dispatch run on any
+            # other day of the week needs to roll back to that most recent
+            # Sunday instead, or it requests a poll date that never existed.
+            WEEKDAY=$(date -u +%u)   # Mon=1 ... Sun=7
+            DAYS_BACK=$((WEEKDAY % 7))
+            WEEK_TAG=$(date -u -d "-${DAYS_BACK} days" +%Y-%m-%d)
+          fi
           WEEK_NUMBER="${{ github.event.inputs.week_number }}"
           if [ -z "$WEEK_NUMBER" ]; then
             # Weeks 1-4 (2026-09-08, -13, -20, -27) don't sit on an exact
